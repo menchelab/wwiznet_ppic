@@ -1,0 +1,111 @@
+{
+    "version": 1,
+    "exportType": "asdf10k-local-storage",
+    "dataset": "data",
+    "presets": {
+      "dominant_origin": {
+        "nodeSizeScaling": 0.3305,
+        "nodeMinSize": 0.001,
+        "edgeWidthScaling": 2.5,
+        "edgeMinWidth": 2,
+        "nodeSizeAttribute": "proteinids_n",
+        "nodeColorAttribute": "dominant_origin_c",
+        "nodeMeshAttribute": "degree_n",
+        "edgeWidthAttribute": "width_norm",
+        "edgeColorAttribute": "origins",
+        "edgeCutoff": 1,
+        "nodeSizeScalingMethod": "linear",
+        "nodeColorScalingMethod": "linear",
+        "edgeWidthScalingMethod": "linear",
+        "edgeColorScalingMethod": "linear",
+        "nodeMeshScalingMethod": "linear",
+        "edgeOpacity": 0.06,
+        "edgeBlending": "additive",
+        "edgeAlphaByWeight": true,
+        "edgeAlphaMin": 0.1,
+        "edgeAlphaMax": 0.8,
+        "edgeFadeDistance": 0.7,
+        "edgeDensityMode": false,
+        "edgeDensityScale": 2,
+        "highlightNodeSizeScale": 1,
+        "highlightEdgeWidthScale": 0.2,
+        "highlightNodesEnabled": true,
+        "highlightEdgesEnabled": false,
+        "enabled": true,
+        "distance": 1200,
+        "enableDynamicResolution": false,
+        "targetFPS": 60,
+        "resolutionScale": 1,
+        "bloomMode": "selection",
+        "bloomStrength": 0.95,
+        "bloomRadius": 0.15,
+        "bloomThreshold": 0.54,
+        "cameraPosition": {
+          "x": 23.682539903899862,
+          "y": 13.97379587487085,
+          "z": -11.099386756257063
+        },
+        "cameraRotation": {
+          "x": -2.242052012940126,
+          "y": 0.9250388366830848,
+          "z": 1.2101228440754372
+        }
+      },
+      "number of origins": {
+        "nodeSizeScaling": 0.453,
+        "nodeMinSize": 0.001,
+        "edgeWidthScaling": 2.5,
+        "edgeMinWidth": 2,
+        "nodeSizeAttribute": "degree_n",
+        "nodeColorAttribute": "origins_n",
+        "nodeMeshAttribute": "degree_n",
+        "edgeWidthAttribute": "width_norm",
+        "edgeColorAttribute": "origins",
+        "edgeCutoff": 1,
+        "nodeSizeScalingMethod": "linear",
+        "nodeColorScalingMethod": "linear",
+        "edgeWidthScalingMethod": "linear",
+        "edgeColorScalingMethod": "linear",
+        "nodeMeshScalingMethod": "linear",
+        "edgeOpacity": 0.06,
+        "edgeBlending": "additive",
+        "edgeAlphaByWeight": true,
+        "edgeAlphaMin": 0.1,
+        "edgeAlphaMax": 0.8,
+        "edgeFadeDistance": 0.7,
+        "edgeDensityMode": false,
+        "edgeDensityScale": 2,
+        "highlightNodeSizeScale": 1,
+        "highlightEdgeWidthScale": 0.2,
+        "highlightNodesEnabled": true,
+        "highlightEdgesEnabled": false,
+        "enabled": true,
+        "distance": 1200,
+        "enableDynamicResolution": false,
+        "targetFPS": 60,
+        "resolutionScale": 1,
+        "bloomMode": "selection",
+        "bloomStrength": 0.95,
+        "bloomRadius": 0.15,
+        "bloomThreshold": 0.54,
+        "cameraPosition": {
+          "x": 20.829688514563674,
+          "y": 14.513936440315232,
+          "z": -19.08208125212847
+        },
+        "cameraRotation": {
+          "x": -2.4913384890506323,
+          "y": 0.7153214502665095,
+          "z": 0.5518166214066031
+        }
+      }
+    },
+    "lastUsedPreset": "dominant_origin",
+    "subsetBuilderLibrary": [
+      {
+        "name": "was merged",
+        "formula": "proteinids_n > 1"
+      }
+    ],
+    "nodeLayout": "default"
+  }

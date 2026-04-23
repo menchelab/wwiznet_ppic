@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>asdf10k</title>
+  <style>
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+      overflow: auto;
+      overscroll-behavior: none;
+      background: #000;
+    }
+
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    canvas {
+      width: 100vw;
+      height: 100vh;
+      display: block;
+      touch-action: none;
+      user-select: none;
+      background: #000;
+    }
+  </style>
+  <script type="module" crossorigin src="./assets/index-DqfNW1oI.js"></script>
+</head>
+
+<body>
+  <!-- Stub for Node's process so pacmap_tfjs (and its "progress" dependency) work in the browser -->
+  <script>
+    (function () {
+      var p = { env: {}, platform: 'browser', version: '', versions: {} };
+      var noop = function () {};
+      var stream = { isTTY: false, write: noop, cursorTo: noop, clearLine: noop, columns: 80 };
+      p.stderr = stream;
+      p.stdout = stream;
+      if (typeof globalThis !== 'undefined') globalThis.process = p;
+      if (typeof window !== 'undefined') window.process = p;
+    })();
+  </script>
+</body>
+
+</html>
