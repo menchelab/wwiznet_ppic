@@ -1,0 +1,1670 @@
+source	target	test
+CD79B	CD6
+CD79B	SLC38A5
+CD79B	GRAP2
+CD79B	RUBCNL
+CD79B	CYTIP
+CD79B	S1PR4
+CD79B	CD72
+CD79B	ELMO1
+CD79B	MS4A1
+CD79B	AIM2
+CD79B	CD3D
+CD79B	H2BC14
+LYPD4	NPRL3
+Glutathione	S-Adenosyl-L-methionine
+Glutathione	L-Cysteine
+Glutathione	Hydrogen sulfide
+Glutathione	Thioredoxin disulfide
+Glutathione	Hydrogen peroxide
+Glutathione	Glycine
+Glutathione	gamma-L-Glutamyl-L-cysteine
+Glutathione	Formate
+L-Glutamyl-tRNA(Glu)	L-Glutamate
+HCLS1	RHOH
+HCLS1	PDE3B
+HCLS1	GCNT1
+SMS	MAPKAPK3
+PATL1	IGHM
+N-Acetyl-4-O-acetylneuraminate	N-Acetylneuraminic acid
+SEPTIN2	FXR1
+SEPTIN2	JPT2
+Thioredoxin disulfide	Hydrogen sulfide
+Thioredoxin disulfide	Pyruvate
+Thioredoxin disulfide	UDP
+Thioredoxin disulfide	Mercaptopyruvate
+Thioredoxin disulfide	dADP
+CYTH4	SNAI3
+CYTH4	PIK3CG
+CYTH4	FCRL3
+CYTH4	IGKV3D-20
+CYTH4	IGKV1-5
+TOR1A	PRPH2
+SYNE1	COL4A5
+FANCD2	KAT5
+FANCD2	C5AR1
+FANCD2	GPR17
+FANCD2	USP7
+IKZF1	CLEC10A
+IKZF1	GPR183
+IKZF1	LILRB5
+IKZF1	FCER2
+IKZF1	CTLA4
+IKZF1	TSPAN32
+IKZF1	FCRL1
+IKZF1	UNC13D
+L-Kynurenine	L-Glutamate
+L-Kynurenine	2-Oxoglutarate
+L-Kynurenine	4-(2-Aminophenyl)-2,4-dioxobutanoate
+L-Kynurenine	Kynurenic acid
+L-Kynurenine	Anthranilic acid
+IGKV1-5	CSF2RA
+IGKV1-5	IGHV3-20
+IGKV1-5	RHOH
+IGKV1-5	SNAI3
+IGKV1-5	EVI2B
+IGKV1-5	KCNA3
+IGKV1-5	NCF4
+IGKV1-5	FYB1
+UBXN1	HMGB1
+UBXN1	RAD23A
+UBXN1	ASF1B
+UBXN1	PLA2G4A
+ITGB2	NOTCH2NLC
+ITGB2	ITGAM
+ITGB2	KRT31
+ITGB2	ZNF597
+ITGB2	FOXD4L6
+ITGB2	PRKCG
+ITGB2	SLC25A20
+ITGB2	MYC
+ITGB2	ARFIP2
+ITGB2	TM4SF18
+ITGB2	FAM9A
+ITGB2	C3
+ITGB2	GNG8
+ITGB2	RING1
+ITGB2	PRPH2
+CTP	L-Glutamate
+CTP	L-Glutamine
+CTP	Pyruvate
+CTP	CMP-N-acetylneuraminate
+CTP	Choline phosphate
+Hypoxanthine	Deoxyinosine
+Hypoxanthine	alpha-D-Ribose 1-phosphate
+Hypoxanthine	Xanthine
+CMP-N-acetylneuraminate	GM3
+CMP-N-acetylneuraminate	Acetyl-CoA
+CMP-N-acetylneuraminate	N-Acetylneuraminyl-D-galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide
+Ferricytochrome b5	Dihydroceramide
+Carnitine	2-Oxoglutarate
+Carnitine	Succinate
+XAGE1B	C5
+XAGE1B	PLA2G4A
+Protein N6,N6,N6-trimethyl-L-lysine	2-Oxoglutarate
+Protein N6,N6,N6-trimethyl-L-lysine	Protein N6-methyl-L-lysine
+KRT37	TXLNB
+KRT37	ZRANB1
+KRT37	VTN
+C1QA	TNFRSF11A
+C1QA	CCR2
+MAL2	FREM1
+SPIB	PAX5
+SPIB	UBASH3A
+SPIB	S1PR4
+SPIB	FCRL5
+DDHD2	CHI3L1
+DDHD2	ALOX5
+OSER1	NCR1
+OSER1	LACC1
+OSER1	TSR3
+COL4A5	DCLK2
+COL4A5	RHOBTB3
+COL4A5	COL9A2
+COL4A5	COL4A3
+5'-Phosphoribosyl-N-formylglycinamide	2-(Formamido)-N1-(5'-phosphoribosyl)acetamidine
+GAPDH	KAT5
+GAPDH	ATXN1
+GAPDH	GATM
+GAPDH	PRDX1
+ADCY7	NFAM1
+ADCY7	TAGAP
+ADCY7	ZNF831
+ADCY7	IL7R
+ADCY7	PARP15
+PIGN	YIPF3
+PIGN	CERS5
+4-(2-Amino-3-hydroxyphenyl)-2,4-dioxobutanoate	L-Glutamate
+4-(2-Amino-3-hydroxyphenyl)-2,4-dioxobutanoate	2-Oxoglutarate
+4-(2-Amino-3-hydroxyphenyl)-2,4-dioxobutanoate	3-Hydroxy-L-kynurenine
+N1-Acetylspermidine	Hydrogen peroxide
+N1-Acetylspermidine	Putrescine
+D-Glucose	beta-D-Galactose
+D-Glucose	IDP
+D-Glucose	UDP
+D-Glucose	UDP-alpha-D-galactose
+D-Glucose	dATP
+D-Glucose	dADP
+GEM	NOTCH2NLC
+GEM	INCA1
+GEM	TEKT5
+GEM	DISC1
+GEM	KCTD9
+GEM	CST1
+GEM	RAD23A
+GEM	SDHB
+GEM	VTN
+Prostaglandin H2	Arachidonic acid
+Prostaglandin H2	Prostaglandin F2alpha
+Prostaglandin H2	Prostaglandin E2
+GRAP2	CYTIP
+GRAP2	FCMR
+GRAP2	RUNX3
+GRAP2	LAT2
+GRAP2	PRAM1
+GRAP2	MS4A1
+GRAP2	AIM2
+GRAP2	RASSF5
+N-Acetyl-9-O-acetylneuraminate	N-Acetylneuraminic acid
+SPN	RIN3
+SPN	PIK3CD
+SPN	PRAM1
+4-(2-Aminophenyl)-2,4-dioxobutanoate	2-Oxoglutarate
+MTRF1L	CHI3L1
+MTRF1L	PDS5B
+TMEM14B	ITGAM
+TMEM14B	FAM209A
+TMEM14B	C5
+TMEM14B	THBD
+TMEM14B	CFHR5
+TMEM14B	KCNJ6
+N-Acetylneuraminic acid	N-Acetyl-D-mannosamine
+N-Acetylneuraminic acid	GQ1
+N-Acetylneuraminic acid	GD1b
+N-Acetylneuraminic acid	GM4
+N-Acetylneuraminic acid	Galactosylceramide
+N-Acetylneuraminic acid	Pyruvate
+N-Acetylneuraminic acid	N-Acetylneuraminyl-D-galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide
+N-Acetylneuraminic acid	N-Acetyl-O-acetylneuraminate
+N-Acetylneuraminic acid	GM3
+N-Acetylneuraminic acid	N-Acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide
+N-Acetylneuraminic acid	Lactosylceramide
+N-Acetylneuraminic acid	GA2
+SH3GL2	FXR1
+SH3GL2	IGHM
+SH3GL2	CD46
+PRDX1	PRDX4
+PRDX1	ABL1
+PRDX1	MYC
+PRDX1	VHL
+Thiol	S-Adenosyl-L-methionine
+Thiol	Hydrogen sulfide
+Thiol	Pyruvate
+L-Homocysteine	L-Serine
+L-Homocysteine	Tetrahydrofolate
+L-Homocysteine	S-Adenosyl-L-methionine
+L-Homocysteine	Pyruvate
+GPR17	VPS8
+GPR17	TUBGCP2
+GPR17	ITPR2
+GPR17	WAPL
+GPR17	PDS5B
+GPR17	MTOR
+MED10	ITGAM
+MED10	FBXL19
+CCR5	C3AR1
+CCR5	LILRB5
+CCR5	FCHO1
+CCR5	CLEC10A
+CCR5	IL7R
+CCR5	ITGAM
+CCR5	SLC22A31
+CCR5	UNC13D
+CCR5	CD163L1
+RAB1A	RABIF
+RAB1A	MTOR
+NELL2	CXCR4
+NELL2	LY9
+NELL2	STAT4
+NELL2	IGHV3-64
+NELL2	IGKV3D-15
+Pyruvate	2-Iminopropanoate
+Pyruvate	Hydrogen peroxide
+Pyruvate	L-Glutamate
+Pyruvate	Aceneuramate
+Pyruvate	IDP
+Pyruvate	L-Serine
+Pyruvate	L-Alanine
+Pyruvate	5'-Deoxyadenosine
+Pyruvate	dATP
+Pyruvate	D-Alanine
+Pyruvate	3-Acylpyruvate
+Pyruvate	(S)-2-Aminobutanoate
+Pyruvate	S-Adenosyl-L-methionine
+Pyruvate	Se-Methyl-L-selenocysteine
+Pyruvate	Malate
+Pyruvate	S-Alkyl-L-cysteine
+Pyruvate	L-Cysteine
+Pyruvate	Hydrogen sulfide
+Pyruvate	UDP
+Pyruvate	L-Methionine
+Pyruvate	N1-Methylguanine in tRNA(Phe)
+Pyruvate	2-(alpha-Hydroxyethyl)thiamine diphosphate
+Pyruvate	Oxaloacetate
+Pyruvate	Acetyl-CoA
+Pyruvate	(3S)-Citramalyl-CoA
+Pyruvate	2-Oxoglutarate
+Pyruvate	HCO3-
+Pyruvate	Glycine
+Pyruvate	Glyoxylate
+Pyruvate	Carboxylate
+Pyruvate	Hydroxypyruvate
+Pyruvate	Fumarate
+Pyruvate	dADP
+Pyruvate	L-Cystathionine
+Pyruvate	[Dihydrolipoyllysine-residue acetyltransferase] S-acetyldihydrolipoyllysine
+Pyruvate	dGDP
+Pyruvate	Nucleoside triphosphate
+Pyruvate	NDP
+Pyruvate	Thioredoxin
+Pyruvate	Mercaptopyruvate
+Pyruvate	Aryl thiol
+Pyruvate	L-Cysteine-S-conjugate
+Pyruvate	Selenohomocysteine
+Pyruvate	L-Selenocystathionine
+Pyruvate	Methaneselenol
+Pyruvate	[Protein]-L-cysteine
+THF-polyglutamate	L-Glutamate
+RAC2	H2BC14
+Psychosine	Sphingosine
+3-Acetamidopropanal	Putrescine
+3-Acetamidopropanal	spermidine
+EVI2B	IGLV7-43
+EVI2B	GCNT1
+EVI2B	STAB1
+EVI2B	CTHRC1
+EVI2B	SNAI3
+EVI2B	CPA3
+BTK	SLC38A5
+BTK	LCK
+BTK	H2BC14
+BTK	CCR2
+TBC1D24	ZFTA
+Putrescine	S-Adenosylmethioninamine
+Putrescine	L-Ornithine
+Putrescine	N-Acetylputrescine
+Putrescine	spermidine
+NPC2	CFB
+PIK3CG	DOCK10
+PIK3CG	SLAMF7
+PIK3CG	KCNA3
+PIK3CG	NCF4
+PIK3CG	CCL5
+PIK3CG	IGKV3D-20
+PIK3CG	FXYD5
+PIK3CG	BCAT1
+POMK	C3AR1
+2-Hydroxyphytanoyl-CoA	2-Oxoglutarate
+2-Hydroxyphytanoyl-CoA	Succinate
+BCAT1	MNDA
+BCAT1	MYO1F
+BCAT1	SAMSN1
+BCAT1	SCIMP
+BCAT1	SLC1A3
+CLEC10A	ITGB2
+CLEC10A	CORO1A
+CLEC10A	GPR183
+CLEC10A	TLR6
+Lactosylceramide sulfate	N-Acetyl-D-galactosamine
+RDH11	LGR4
+RDH11	ESYT1
+RDH11	DPEP1
+RDH11	GBA1
+3-Sulfino-L-alanine	3-Sulfinylpyruvate
+3-Sulfino-L-alanine	L-Glutamate
+3-Sulfino-L-alanine	2-Oxoglutarate
+3-Sulfino-L-alanine	L-Cysteine
+IGKV3D-20	IGKV1-17
+IGKV3D-20	SNAI3
+IGKV3D-20	KCNA3
+IGKV3D-20	NCF4
+IGKV3D-20	GRK6
+CMTM3	TSPAN32
+CMTM3	CD300A
+CMTM3	PARP15
+BLK	RHOH
+BLK	SH2D1A
+BLK	LAX1
+BLK	ST8SIA4
+ASF1B	UBE2I
+ASF1B	H3-3B
+ASF1B	C3
+C5	C5AR1
+C5	CFHR1
+C5	CPB2
+C5	VTI1B
+C5	C9
+C5	VEZT
+C5	C3
+HAX1	KAT5
+HAX1	PPP3CC
+DCAF8	GGH
+RNF6	ALOX5
+RNF6	MEOX2
+Hydrogen sulfide	Hydrogen peroxide
+Hydrogen sulfide	Formaldehyde
+Hydrogen sulfide	L-Cysteine
+Hydrogen sulfide	Mercaptopyruvate
+3-Phosphonooxypyruvate	2-Oxoglutarate
+C1QA	CRP
+C1QA	ITGAV
+C1QA	CCDC134
+QPRT	CRY2
+QPRT	SF3A1
+QPRT	BCOR
+QPRT	CCDC134
+alpha-D-Ribose 1-phosphate	Guanine
+DHRS3	SRC
+DHRS3	CD59
+beta-Citryl-L-glutamate	L-Glutamate
+beta-Citryl-L-glutamate	Citrate
+MUC1	ITGAM
+MUC1	GRB2
+MUC1	ABL1
+KRTAP19-2	TENT5D
+KRTAP19-2	SPAG8
+NELL2	ASPH
+PC	LYRM7
+PC	MDH2
+PC	FCN3
+ZRANB1	KEAP1
+ZRANB1	KRT31
+HCK	ASF1B
+SRRT	HSPA8
+SRRT	C3
+SRRT	JUP
+SRRT	CST4
+PIK3AP1	KTI12
+WAS	LY9
+WAS	H2BC14
+WAS	RUBCNL
+KTI12	ITGB2
+(S)-2-Aminobutanoate	L-Glutamate
+(S)-2-Aminobutanoate	2-Oxoglutarate
+ESAM	BTC
+CD300A	LILRB5
+CD300A	TSPAN32
+CD300A	FCHO1
+CD300A	GPR183
+CD300A	IGHV1-69
+CD300A	CTSK
+CD300A	UNC13D
+CD300A	IL2RB
+STAT4	CXCR4
+Urea	L-Ornithine
+Urea	3-Guanidinopropanoate
+SDHB	DISC1
+SDHB	SDHAF1
+Anthranilic acid	Formylanthranilate
+Dihydroceramide	Ceramide
+5-Carboxycytosine in DNA	5-Formylcytosine in DNA
+5-Carboxycytosine in DNA	2-Oxoglutarate
+5-Carboxycytosine in DNA	Succinate
+3-Hydroxy-L-kynurenine	L-Glutamate
+3-Hydroxy-L-kynurenine	2-Oxoglutarate
+GNG8	ITGAM
+GNG8	ALB
+GNG8	CFB
+GNG8	C3
+GNG8	VTN
+GNG8	IGHM
+L-Glutamine	Deamino-NAD+
+L-Glutamine	5-Phospho-alpha-D-ribose 1-diphosphate
+L-Glutamine	GMP
+L-Glutamine	5-Phosphoribosylamine
+L-Glutamine	L-Glutamate
+L-Glutamine	Carbamoyl phosphate
+L-Glutamine	L-Phenylalanine
+L-Glutamine	L-Aspartate
+L-Glutamine	Acyl-CoA
+L-Glutamine	D-Glucosamine 6-phosphate
+L-Glutamine	L-Asparagine
+L-Glutamine	Phenylpyruvate
+Xanthine	Xanthosine
+Xanthine	Uric acid
+5-Hydroxymethylcytosine in DNA	5-Formylcytosine in DNA
+5-Hydroxymethylcytosine in DNA	5-Methylcytosine in DNA
+5-Hydroxymethylcytosine in DNA	2-Oxoglutarate
+5-Hydroxymethylcytosine in DNA	Succinate
+3-Hydroxy-3-methylglutarate	Succinate
+NLRC5	SLC38A5
+NLRC5	RUBCNL
+Leukotriene D4	Leukotriene C4
+TMC8	GCNT1
+TMC8	CTHRC1
+TMC8	CD226
+TMC8	SNAI3
+TMC8	HCST
+TMC8	CPA3
+HCO3-	L-Glutamate
+HCO3-	Oxaloacetate
+HCO3-	Acetyl-CoA
+IGKV1-12	LY9
+IGKV1-12	IGLV3-16
+IGKV1-12	IGLC2
+IGKV1-12	IGKV3D-15
+IGKV1-12	IGHV3-64
+Hydroquinone	Hydroxyproline
+Hydroquinone	Quinone
+Hydroquinone	Succinate
+Hydroquinone	Fumarate
+ADGRE2	CFHR1
+ADGRE2	HSD17B13
+ADGRE2	FAM209A
+ADGRE2	ELOVL4
+IDH3A	RAB4A
+IDH3A	IDH3B
+VSIG4	LILRB5
+VSIG4	C5AR1
+VSIG4	C3
+VSIG4	CD209
+VSIG4	HAVCR1
+VSIG4	CCR2
+CERS5	HTR2C
+CERS5	CXCR4
+CERS5	C3AR1
+MTDH	SIRT2
+FCRL1	IL2RB
+FCRL1	CTLA4
+FCRL1	FCER2
+SPAG8	INCA1
+SPAG8	GIGYF1
+SPAG8	TEKT5
+SDHAF1	HSCB
+GJA8	ITGAM
+GJA8	GRB2
+IGKV5-2	CSF2RA
+IGKV5-2	IGHV3-20
+IGKV5-2	RHOH
+IGKV5-2	IGLV7-43
+IGKV5-2	LAX1
+IGKV5-2	KLRD1
+IGKV5-2	TRBV5-1
+IGKV5-2	IGKV1-8
+20-HETE	Arachidonic acid
+CD163	TNFRSF11A
+CD163	C5AR1
+CD163	MYC
+CD163	C3
+CD163	CD209
+CD163	STIM1
+CD163	HAVCR1
+KYAT3	RABIF
+BTC	FAM161A
+LPAR4	PDS5B
+CCL5	PIF1
+CCL5	FCRL5
+CCL5	FXYD5
+CCL5	NCF4
+CCL5	DOCK10
+CCL5	SNAI3
+CCL5	KCNA3
+Formaldehyde	Hydrogen peroxide
+Formaldehyde	Glycine
+Formaldehyde	Reduced acceptor
+Formaldehyde	Succinate
+Formaldehyde	Acceptor
+2-Hydroxyglutarate	2-Oxoglutarate
+2-Hydroxyglutarate	FADH2
+RNASE6	PDE3B
+RNASE6	CARD9
+CST1	UQCRQ
+CST1	CST4
+CST1	ASPH
+Dehydrospermidine	[eIF5A-precursor]-lysine
+Dehydrospermidine	spermidine
+CPA3	ZNF831
+CPA3	TLR6
+CPA3	HCST
+IGHV3-64	LY9
+IGHV3-64	IGLV3-16
+IGHV3-64	IGHV2-26
+IGHV3-64	IGLC2
+IGHV3-64	TAGAP
+IGHV3-64	PARP15
+IGHV3-64	IGKV3D-15
+ATP5PB	SMARCA2
+ATP5PB	CLIC1
+ATP5PB	VHL
+ATP5PB	C3AR1
+UGT1A1	UGDH
+UGT1A1	ESYT1
+UGT1A1	COPZ1
+PARP15	ZNF831
+PARP15	IGHV2-26
+PARP15	IL7R
+Protein-L-arginine	2-Oxoglutarate
+Protein-L-arginine	S-Adenosyl-L-methionine
+10-Formyltetrahydrofolate	Tetrahydrofolate
+10-Formyltetrahydrofolate	Formate
+THBD	AIG1
+THBD	F2
+THBD	FAM209A
+CANT1	C5AR1
+CANT1	FAM209A
+N-Acetylornithine	L-Ornithine
+RCHY1	KAT5
+RCHY1	PRDX4
+RCHY1	AIG1
+RCHY1	MEOX2
+DDX19B	NPRL3
+DDX19B	SLC18A2
+DDX19B	CXCR4
+VEZT	DISC1
+VEZT	CXCR4
+VEZT	C3AR1
+KCNJ6	ITGAM
+KCNJ6	AIG1
+N-Acetylaspartylglutamate	N-Acetylaspartylglutamylglutamate
+MSMO1	ATXN1
+GBA1	ESYT1
+SLC49A4	RIOX1
+alpha-N-Acetylneuraminyl-2,6-beta-galactosyl-1,4-beta-D-glucosylceramide	Lactosylceramide
+Leukotriene B4	Leukotriene A4
+Leukotriene B4	20-OH-Leukotriene B4
+PTPN3	TENT5D
+PTPN3	YWHAZ
+PTPN3	KRT31
+PTPN3	WDR6
+MDH2	G2E3
+MDH2	WARS1
+Phenylpyruvate	Hydrogen peroxide
+Phenylpyruvate	2-Oxoglutaramate
+Phenylpyruvate	L-Phenylalanine
+Phenylpyruvate	2-Oxoglutarate
+GEN1	MNDA
+KYNU	RASSF3
+PABPC3	TENT5D
+PABPC3	GALK2
+IGHV1-69	IGKV2-24
+IGHV1-69	LCK
+IGHV1-69	IL2RB
+IGHV1-69	FCER2
+IGHV1-69	ITGAL
+IGHV1-69	FCHO1
+IGHV1-69	UNC13D
+IGHV1-69	IGLV2-18
+IGHV1-69	IGLV9-49
+IGHV1-69	IL12RB1
+IGHV1-69	IGHV3-49
+IGHV1-69	CCR2
+CFHR2	CFHR1
+TPP2	ALOX5
+HTR2C	PDS5B
+APOBR	ITGAL
+[Protein]-(3R)-3-hydroxy-L-arginine	2-Oxoglutarate
+[Protein]-(3R)-3-hydroxy-L-arginine	Succinate
+HSCB	LYRM7
+CCDC134	ACOT2
+PRKD2	ST8SIA4
+PRKD2	GRIP1
+N-Formimino-L-glutamate	L-Glutamate
+N-Formimino-L-glutamate	5-Formiminotetrahydrofolate
+TUBGCP2	C5AR1
+[Protein]-L-cysteine	Thioredoxin
+SNAI1	EGR2
+SNAI1	KRT31
+USP7	KAT5
+USP7	ATXN1
+USP7	LINC02582
+USP7	MYC
+USP7	RING1
+USP7	BCOR
+USP7	ABL1
+CGN	GIGYF1
+CGN	YWHAZ
+CGN	KIF13B
+CGN	PANK2
+C3	HSP90AA1
+C3	CFHR1
+C3	HMGB1
+C3	CFB
+C3	CFHR3
+C3	CFHR5
+C3	CFI
+C3	CRP
+C3	VHL
+C3	CFP
+C3	CR1
+C3	CD46
+C3	CFH
+C3	KRT31
+[Oxidized NADPH---hemoprotein reductase]	Fatty acid
+[Oxidized NADPH---hemoprotein reductase]	[Reduced NADPH---hemoprotein reductase]
+TPT1	VHL
+TPT1	LACC1
+CFAP69	ZNF302
+CNTFR	JPT2
+CNTFR	GRB2
+CNTFR	C9
+CNTFR	ABL1
+CREB3	VTI1B
+CREB3	CFHR5
+CREB3	HCFC1
+D-Glucosamine 6-phosphate	L-Glutamate
+D-Glucosamine 6-phosphate	IDP
+D-Glucosamine 6-phosphate	Acetate
+ARRDC2	UNC13D
+SLC16A6	CD74
+L-Isoleucine	Hydrogen peroxide
+L-Isoleucine	(S)-3-Methyl-2-oxopentanoic acid
+L-Isoleucine	2-Oxoglutarate
+Acetoacetyl-CoA	Succinyl-CoA
+Acetoacetyl-CoA	Succinate
+SLC39A1	F2RL1
+SLC39A1	HAVCR1
+ABL1	HSPA8
+ABL1	GRB2
+ABL1	YWHAZ
+SLC38A5	CD72
+TMCC3	PPP3CC
+TMCC3	RNPEPL1
+3-Oxopropanoate	L-Glutamate
+3-Oxopropanoate	2-Oxoglutarate
+3-Oxopropanoate	Acetyl-CoA
+HLA-A	IGLV3-16
+FAM161A	ZMAT1
+FAM161A	CDC42BPA
+Deamino-NAD+	L-Glutamate
+RIMKLB	EGR2
+ELMO1	CD6
+ELMO1	CD72
+ELMO1	RIPOR2
+Succinyl-CoA	3-Oxo acid
+Succinyl-CoA	3-Oxoacyl-CoA
+Succinyl-CoA	Acetyl-CoA
+Succinyl-CoA	Glycine
+3-Oxoacyl-CoA	3-Oxo acid
+3-Oxoacyl-CoA	Acyl-CoA
+3-Oxoacyl-CoA	Acetyl-CoA
+CD55	PDCD2
+CD55	CHI3L1
+RAB4A	KCTD7
+RAB4A	TMPRSS11E
+CSF2RA	IGHV3-20
+CSF2RA	CTHRC1
+CSF2RA	CTLA4
+CSF2RA	GPR183
+CSF2RA	GCNT1
+Taurine	L-Arginine
+CFHR1	PRDX4
+CFHR1	CRP
+CFHR1	CFP
+CFHR1	CFHR5
+CFHR1	CFB
+CFHR1	CFH
+1,2-Diacyl-sn-glycerol	Acyl-CoA
+1,2-Diacyl-sn-glycerol	Ceramide
+1,2-Diacyl-sn-glycerol	CDP-ethanolamine
+1,2-Diacyl-sn-glycerol	Phosphatidylethanolamine
+1,2-Diacyl-sn-glycerol	Ceramide phosphoethanolamine
+NPHS2	HPD
+NPHS2	PRODH2
+NPHS2	NPHS1
+GMP	Guanine
+GMP	5-Phospho-alpha-D-ribose 1-diphosphate
+GMP	L-Glutamate
+HMGB1	C1QBP
+CERK	MRAP2
+CERK	PDCD2
+Arachidonic acid	Leukotriene A4
+Arachidonic acid	12(S)-HPETE
+Arachidonic acid	11,12-EET
+Arachidonic acid	Phosphatidylcholine
+Arachidonic acid	2-Lysophosphatidylcholine
+Arachidonic acid	15(S)-HPETE
+Arachidonic acid	5,6-EET
+Arachidonic acid	16(R)-HETE
+CFP	IL7R
+CFP	LILRB5
+CFP	C5AR1
+CFP	CORO1A
+CFP	IL2RB
+CFP	CD163L1
+RNPEPL1	DKK4
+DYNLT1	DYNC1I2
+Acetoacetate	4-Fumarylacetoacetate
+Acetoacetate	2-Oxoglutarate
+Acetoacetate	Acetyl-CoA
+Acetoacetate	Succinate
+RRP1	VTN
+PTGES2	ABCF2
+PTGES2	UQCRFS1
+PTGES2	UQCRQ
+PTGES2	CPNE9
+SYT6	KCTD9
+SYT6	TMPRSS11E
+PRODH2	MME
+Hydroxyproline	2-Oxoglutarate
+FFAR2	GPR37L1
+Procollagen trans-4-hydroxy-L-proline	2-Oxoglutarate
+Procollagen trans-4-hydroxy-L-proline	Procollagen L-proline
+Phosphatidylethanolamine	Acyl-CoA
+IDP	Oxaloacetate
+IDP	Succinate
+CERS4	ATXN1
+CERS4	ITGAM
+CERS4	C5AR1
+GJB1	ITGAM
+STAB1	GCNT1
+STAB1	IMPDH1
+L-Serine	Tetrahydrofolate
+L-Serine	L-Alanine
+L-Serine	L-Cysteine
+L-Serine	Glyoxylate
+L-Serine	Hydroxypyruvate
+L-Serine	Glycine
+UBE2I	HIF1A
+UBE2I	SMAD4
+UBE2I	SREBF2
+UBE2I	TXLNB
+UBE2I	VHL
+LINC02582	ALB
+LINC02582	MAPKAPK3
+LINC02582	UMOD
+DOK2	RUBCNL
+DKK4	ITGAM
+SREBF2	ATXN1
+SREBF2	LGR4
+SREBF2	IGHM
+L-2-Aminoadipate	L-Glutamate
+L-2-Aminoadipate	2-Oxoglutarate
+L-2-Aminoadipate	L-2-Aminoadipate 6-semialdehyde
+[eIF5A-precursor]-lysine	spermidine
+Kynurenic acid	L-Glutamate
+Kynurenic acid	2-Oxoglutarate
+2-(Formamido)-N1-(5'-phosphoribosyl)acetamidine	L-Glutamate
+ATF1	SRA1
+ATF1	MAPKAPK3
+Glucosylceramide	Ceramide
+Glucosylceramide	Lactosylceramide
+D-Alanine	Hydrogen peroxide
+TMPRSS11E	GATM
+TMPRSS11E	MEOX2
+TMPRSS11E	ACOT1
+TMPRSS11E	DBNL
+INHA	ANO1
+ACOT2	ACOT1
+3'-Phosphoadenylyl sulfate	Adenosine 3',5'-bisphosphate
+Thiamin diphosphate	(S)-3-Methyl-2-oxopentanoic acid
+Thiamin diphosphate	2-Oxoglutarate
+Thiamin diphosphate	3-Methyl-2-oxobutanoic acid
+PTP4A1	GNL1
+PTP4A1	CD59
+2-Oxoglutarate	4-Methylthio-2-oxobutanoic acid
+2-Oxoglutarate	3-Sulfinylpyruvate
+2-Oxoglutarate	[Protein]-(3S)-3-hydroxy-L-lysine
+2-Oxoglutarate	5-Formylcytosine in DNA
+2-Oxoglutarate	3-(4-Hydroxyphenyl)pyruvate
+2-Oxoglutarate	L-erythro-4-Hydroxyglutamate
+2-Oxoglutarate	L-Ornithine
+2-Oxoglutarate	Phytanoyl-CoA
+2-Oxoglutarate	L-Glutamate
+2-Oxoglutarate	N-(4-Oxoglutaryl)-L-cysteinylglycine
+2-Oxoglutarate	Procollagen trans-3-hydroxy-L-proline
+2-Oxoglutarate	L-Alanine
+2-Oxoglutarate	2-Oxoglutaramate
+2-Oxoglutarate	5-Methylcytosine in DNA
+2-Oxoglutarate	L-Phenylalanine
+2-Oxoglutarate	(3S)-3-Hydroxy-N6,N6,N6-trimethyl-L-lysine
+2-Oxoglutarate	(S)-3-Methyl-2-oxopentanoic acid
+2-Oxoglutarate	Protein N6-methyl-L-lysine
+2-Oxoglutarate	Peptide L-aspartate
+2-Oxoglutarate	Succinate semialdehyde
+2-Oxoglutarate	FADH2
+2-Oxoglutarate	N6,N6,N6-Trimethyl-L-lysine
+2-Oxoglutarate	(4R)-4-Hydroxy-2-oxoglutarate
+2-Oxoglutarate	Reduced acceptor
+2-Oxoglutarate	(S)-Methylmalonate semialdehyde
+2-Oxoglutarate	Isocitrate
+2-Oxoglutarate	Procollagen 5-hydroxy-L-lysine
+2-Oxoglutarate	Oxaloacetate
+2-Oxoglutarate	Glycine
+2-Oxoglutarate	Glyoxylate
+2-Oxoglutarate	Delta1-Pyrroline-5-carboxylate
+2-Oxoglutarate	Mercaptopyruvate
+2-Oxoglutarate	beta-Alanine
+2-Oxoglutarate	L-Leucine
+2-Oxoglutarate	3-Methyl-2-oxobutanoic acid
+2-Oxoglutarate	L-3-Aminoisobutanoate
+2-Oxoglutarate	2-Oxo-3-hydroxy-4-phosphobutanoate
+2-Oxoglutarate	2,5-Dioxopentanoate
+2-Oxoglutarate	Oxalosuccinate
+2-Oxoglutarate	(S)-2-Hydroxyglutarate
+2-Oxoglutarate	3-Carboxy-1-hydroxypropyl-ThPP
+2-Oxoglutarate	L-Lysine
+2-Oxoglutarate	N6-(L-1,3-Dicarboxypropyl)-L-lysine
+2-Oxoglutarate	Succinate
+2-Oxoglutarate	[Dihydrolipoyllysine-residue succinyltransferase] S-succinyldihydrolipoyllysine
+2-Oxoglutarate	4-Trimethylammoniobutanoate
+2-Oxoglutarate	Procollagen L-proline
+2-Oxoglutarate	Peptide 3-hydroxy-L-aspartate
+2-Oxoglutarate	Protein N6,N6-dimethyl-L-lysine
+2-Oxoglutarate	7-[(3S)-(3-Amino-3-carboxypropyl)]wyosine in tRNA(Phe)
+2-Oxoglutarate	Cys-Gly
+2-Oxoglutarate	[Protein]-(3S)-3-hydroxy-L-histidine
+RPL7L1	EGR2
+UDP-alpha-D-galactose	Galactosylceramide
+UDP-alpha-D-galactose	UDP
+UDP-alpha-D-galactose	UDP-glucose
+H3-3B	LACC1
+CD72	RIN3
+CD72	RUNX3
+(S)-1-Pyrroline-5-carboxylate	L-Glutamate
+(S)-1-Pyrroline-5-carboxylate	Quinone
+IKBKE	CD3D
+Peptide 3-hydroxy-L-aspartate	Peptide L-aspartate
+SPHK2	DYNC1I2
+RAD23A	ATXN1
+RAD23A	REEP2
+RAD23A	ITGAV
+CFI	CFH
+FXYD5	RHOH
+FXYD5	DOCK10
+FXYD5	SLAMF7
+SAMSN1	S1PR4
+(S)-Methylmalonate semialdehyde	L-Glutamate
+SYT2	ITGAM
+SYT2	VTI1B
+SYT2	CMTM3
+RIPOR2	MS4A1
+RIPOR2	RUNX3
+SLC18A2	CFHR5
+SLC18A2	ELOVL4
+2-Lysophosphatidylcholine	(9Z,12Z,15Z)-Octadecatrienoic acid
+IRF2	MAP3K5
+PKD2	C5AR1
+MRAP2	SLC25A20
+MRAP2	RDH14
+CDC42BPA	ZNF302
+AIM2	CD3D
+AIM2	CD6
+AIM2	FCRL5
+AIM2	MS4A1
+AIM2	S1PR4
+AIM2	RUNX3
+RAB35	CBR3
+RAB35	IDH3B
+LCK	UNC13D
+5-Oxoproline	L-Glutamate
+5-Oxoproline	L-Amino acid
+PDS5B	CYP4F3
+PDS5B	GYPB
+PDS5B	CXCR4
+PDS5B	MYC
+PDS5B	WAPL
+PDS5B	OPRL1
+gamma-L-Glutamyl-L-2-aminobutyrate	L-Glutamate
+Formate	Tetrahydrofolate
+Formate	L-Aspartate
+RDH14	GLA
+RDH14	TACR1
+RDH14	C3AR1
+gamma-L-Glutamyl-L-cysteine	L-Glutamate
+2-Methyl-3-oxopropanoate	L-Alanine
+CPNE9	NPRL3
+CPNE9	PRPH2
+DUSP22	TRBV5-1
+IGHM	IGHV3-20
+IGHM	RHOH
+C1QBP	FXR1
+C1QBP	VTN
+IGLC2	IGLV3-16
+NHERF1	PRPH2
+N-Acetyl-L-glutamate	L-Glutamate
+Ceramide	CDP-ethanolamine
+Ceramide	Ferrocytochrome b5
+Ceramide	Sphingosine
+Ceramide	Ceramide phosphoethanolamine
+Ceramide	Ceramide 1-phosphate
+FOXD4L6	KEAP1
+CAMKV	PDCD2
+Citrate	L-Glutamate
+Citrate	Oxaloacetate
+STXBP3	SNTG1
+ITPR2	C5AR1
+CHPF2	SH3PXD2B
+CST4	CFB
+gamma-Glutamyl-beta-cyanoalanine	L-Glutamate
+gamma-Glutamyl-beta-cyanoalanine	3-Cyano-L-alanine
+L-Aspartyl-tRNA(Asn)	L-Glutamate
+Succinate semialdehyde	L-Glutamate
+Succinate semialdehyde	Succinate
+L-Cysteate	L-Glutamate
+IDH3B	CHI3L1
+IDH3B	DBT
+ALOX5	SMARCA2
+ALOX5	MTMR3
+ALOX5	GRB2
+ALOX5	CEP57L1
+ALOX5	CKAP5
+ALOX5	MEOX2
+FAM209A	AIG1
+FAM209A	RASSF3
+FAM209A	CD59
+L-Asparagine	L-Glutamate
+L-Asparagine	L-Aspartate
+VPS8	C5AR1
+UMOD	FCN3
+ELOVL4	ITGAM
+ELOVL4	CMTM3
+ELOVL4	DPEP1
+ELOVL4	GPR37L1
+GRIA3	PCOLCE2
+GRIA3	CSDC2
+COL25A1	ZBED8
+DBNL	HSPA8
+DBNL	CMAS
+Galactosylceramide	beta-D-Galactose
+SRC	PDCD2
+SRC	CKAP5
+LAMP3	UGDH
+ITGAV	AGMAT
+ITGAV	INSL5
+ITGAV	VTN
+ITGAV	GGH
+GNPTAB	C5AR1
+GNPTAB	DISC1
+NPHS1	CLIC5
+NPHS1	HPD
+NPHS1	MME
+Glyoxylate	Hydrogen peroxide
+Glyoxylate	L-Alanine
+Glyoxylate	Glycine
+Glyoxylate	Hydroxypyruvate
+IGKV3D-15	LY9
+IGKV3D-15	IGHV3-33
+IGKV3D-15	MCOLN2
+XKR8	CARD9
+TNFRSF13C	IGHV3-33
+TNFRSF13C	IGLV9-49
+2-Hydroxyethylenedicarboxylate	Oxaloacetate
+Lactosylceramide	GM3
+Lactosylceramide	GA2
+Lactosylceramide	N-Acetyl-beta-D-glucosaminyl-(1->3)-beta-D-galactosyl-(1->4)-beta-D-glucosyl-(1<->1)-ceramide
+IL12RB1	LAX1
+IL12RB1	ITGB2
+IL12RB1	KLRD1
+IL12RB1	ITGAM
+IL12RB1	PIK3CD
+IL12RB1	IL2RB
+IL12RB1	TRBV5-1
+IL12RB1	FCHO1
+IL12RB1	IGKV1-8
+SLC9B2	CTHRC1
+SLC9B2	CFH
+SLC9B2	TRBV5-1
+FYB1	FCRL3
+FYB1	SNAI3
+CKAP5	GRB2
+Cys-Gly	Glycine
+Cys-Gly	L-Amino acid
+DOCK10	SLAMF7
+DOCK10	KCNA3
+SAT2	PANK2
+SAT2	HIF1A
+WDR6	G2E3
+WDR6	PANK2
+WDR6	GRIP1
+PRKY	MAPKAPK3
+PRKY	FIGNL1
+GGH	UGDH
+GGH	FBXL19
+MEOX2	KAT5
+MEOX2	TXLNB
+MEOX2	CLIC1
+MEOX2	NECTIN2
+MEOX2	KRT31
+S-Adenosyl-L-methionine	Guanidinoacetate
+S-Adenosyl-L-methionine	L-Methionine
+S-Adenosyl-L-methionine	Thioredoxin
+S-Adenosyl-L-methionine	Glycine
+S-Adenosyl-L-methionine	5'-Methylthioadenosine
+S-Adenosyl-L-methionine	Reduced acceptor
+S-Adenosyl-L-methionine	Phosphatidylcholine
+S-Adenosyl-L-methionine	Ubiquinone
+S-Adenosyl-L-methionine	Acceptor
+L-3-Aminoisobutanoate	L-Glutamate
+L-Lysine	beta-Alanine
+CCR2	LILRB5
+CCR2	ITGAM
+CCR2	CD163L1
+CCR2	IL2RB
+CCR2	ITGAL
+CCR2	FCHO1
+CCR2	GPR183
+CCR2	VENTX
+DYNC1I2	DYNC1I1
+DYNC1I2	GNL1
+CBY1	GIGYF1
+CBY1	KIF13B
+CBY1	PANK2
+CD209	C3AR1
+CD209	C5AR1
+CD209	MRC1
+SMAD4	CD59
+IL7R	TSPAN32
+IL7R	ITGB2
+IL7R	ITGAM
+IL7R	CFH
+IL7R	IL2RB
+IL7R	TLR6
+IL7R	ADGRG2
+IL7R	GPR183
+IL7R	CORO1A
+IL7R	TAGAP
+CD59	SPINK1
+CD59	PDCD2
+CD59	PRPH2
+CD59	GALK2
+CD59	C9
+CD59	RABIF
+HAVCR1	F2RL1
+HAVCR1	MRC1
+HAVCR1	TUBA1B
+UQCRFS1	LYRM7
+UQCRFS1	VHL
+INSL5	ASPH
+BATF	DHRS9
+BATF	ZNF831
+BATF	FCGR2A
+BATF	NFAM1
+KAT5	KRT31
+KAT5	KCTD7
+KAT5	OCIAD1
+KAT5	HIF1A
+KAT5	MYC
+KAT5	PDCD2
+KAT5	PLA2G4A
+KAT5	ATXN1
+TNFRSF11A	STIM1
+PRF1	KLRD1
+PRF1	ST8SIA4
+Guanidinoacetate	Glycine
+Guanidinoacetate	L-Arginine
+Guanidinoacetate	L-Ornithine
+C3AR1	GPR183
+C3AR1	LILRB5
+C3AR1	CD163L1
+ATXN1	CRY2
+ATXN1	YWHAZ
+ATXN1	HSPA8
+ATXN1	LNX2
+ATXN1	PRDX4
+PRDX4	CLIC1
+PRDX4	VTN
+PRDX4	CFHR3
+NOTCH2NLC	CRY2
+UDP-N-acetyl-alpha-D-glucosamine	UDP
+UDP-N-acetyl-alpha-D-glucosamine	UDP-N-acetyl-D-galactosamine
+IL17RE	FAM47E
+IL17RE	DNM3
+IL17RE	C1QTNF7
+IGHV3-20	SH2D1A
+IGHV3-20	PLCB2
+IGHV3-20	RHOH
+IGHV3-20	IGLV7-43
+IGHV3-20	TRBV5-1
+N-Acetyl-D-mannosamine	UDP
+5-Phospho-alpha-D-ribose 1-diphosphate	Guanine
+5-Phospho-alpha-D-ribose 1-diphosphate	L-Glutamate
+LGR4	TNFRSF19
+LGR4	PDE3B
+LGR4	CYP2U1
+5-Phosphoribosylamine	L-Glutamate
+BCAP31	ITGAM
+PIF1	CARD9
+L-erythro-4-Hydroxyglutamate	L-Glutamate
+RHOH	IGKV1-17
+RHOH	NIBAN3
+RHOH	SH2D1A
+RHOH	GCNT1
+RHOH	SPI1
+RHOH	PLCB2
+RHOH	KCNA3
+RHOH	IGLV7-43
+L-Ornithine	L-Glutamate
+L-Ornithine	Glycine
+L-Ornithine	L-Arginine
+L-Ornithine	Taurocyamine
+L-Ornithine	L-Amino acid
+L-Ornithine	L-Citrulline
+Prostaglandin F2alpha	Thioredoxin
+CD6	S1PR4
+CD6	MS4A1
+Phytanoyl-CoA	Succinate
+ZNF91	ZMAT1
+Hydrogen peroxide	Reduced acceptor
+Hydrogen peroxide	Acyl-CoA
+Hydrogen peroxide	L-Cysteine
+Hydrogen peroxide	L-Aspartate
+Hydrogen peroxide	L-Methionine
+Hydrogen peroxide	2-Oxo acid
+Hydrogen peroxide	L-Phenylalanine
+Hydrogen peroxide	Glycine
+Hydrogen peroxide	L-Amino acid
+Hydrogen peroxide	Carboxylate
+Hydrogen peroxide	Oxaloacetate
+Hydrogen peroxide	Acceptor
+XPO6	C5AR1
+XPO6	MTOR
+TMEM237	CFHR5
+Procollagen trans-3-hydroxy-L-proline	Succinate
+IGLV7-43	PDE3B
+IGLV7-43	SNAI3
+INCA1	TEKT5
+INCA1	YIPF3
+INCA1	KCTD9
+IGKV2-24	IGLV2-18
+IGKV2-24	IGLV9-49
+GCNT1	CTHRC1
+GCNT1	ITGB2
+AIG1	STOM
+MAP7	PPP3CC
+CCL4	KLRD1
+Taurocyamine	L-Arginine
+LILRB5	ARL4A
+LILRB5	GPR183
+LILRB5	CORO1A
+LILRB5	ITGB2
+LILRB5	CD163L1
+LILRB5	MRC1
+GIGYF1	PANK2
+GIGYF1	DEPDC1B
+STOM	RAC1
+STOM	CFHR5
+TSPAN32	TAGAP
+TSPAN32	ZNF831
+TSPAN32	FCRL3
+TSPAN32	TLR6
+TSPAN32	HCST
+TSPAN32	CD226
+TSPAN32	CORO1A
+FCRL5	CD3D
+FCRL5	S1PR4
+TXLNB	OCIAD1
+TXLNB	CEP57L1
+TXLNB	RASSF3
+10-Formyltetrahydrofolylpolyglutamate	L-Glutamate
+Leukotriene C4	Leukotriene A4
+MYC	C3
+ZNF44	GALNT18
+ZNF44	LGI2
+TENT5D	RASSF3
+ITGB2	IL2RB
+ITGB2	CD163L1
+LAT2	LAX1
+LAT2	FCMR
+LAT2	KLRD1
+LAT2	RUNX3
+LAT2	ZDHHC18
+L-Methionine	L-Glutamate
+L-Methionine	Tetrahydrofolate
+L-Methionine	Reduced acceptor
+L-Methionine	Thioredoxin
+L-Methionine	Acceptor
+L-Phenylalanine	L-Glutamate
+(3S)-3-Hydroxy-N6,N6,N6-trimethyl-L-lysine	Succinate
+ZNF597	SNX12
+SF3A1	HSPA8
+CFB	HSP90AA1
+CFB	CFP
+DEPDC1B	GRIP1
+REEP2	ITGAM
+JPT2	FIGNL1
+JPT2	SLC25A20
+JPT2	EGR2
+Thioredoxin	UDP
+Thioredoxin	dGDP
+Fatty acid	Phosphatidylcholine
+Acetate	L-Aspartate
+Acetate	Acetyl-CoA
+MTMR3	SRC
+RASSF5	CD3D
+RASSF5	SLAMF7
+L-Aspartate	L-Glutamate
+L-Aspartate	Carbamoyl phosphate
+L-Aspartate	Oxaloacetate
+L-Aspartate	Acetyl-CoA
+L-Aspartate	Carboxylate
+L-Aspartate	beta-Alanine
+L-Aspartate	L-Citrulline
+DHRS9	FCRL3
+DHRS9	TLR6
+GM3	N-Acetyl-D-galactosamine
+CFHR3	CRP
+CFHR3	CFH
+N1-Methylguanine in tRNA(Phe)	5'-Deoxyadenosine
+MS4A1	CD3D
+MS4A1	CXCR4
+MS4A1	CYTIP
+MS4A1	S1PR4
+ZNF831	CCR7
+ZNF831	FCRL3
+ZNF831	NFAM1
+ZNF831	HCST
+PDCD2	NUP58
+PDCD2	HCFC1
+LY9	MCOLN2
+LY9	IGHV3-33
+C1QTNF7	FAM47E
+PRPH2	CCK
+PRPH2	NECTIN2
+PRPH2	SNX12
+IGLV3-16	SEL1L3
+IGLV3-16	IGHV2-26
+CRP	CFH
+DYNC1I1	DISC1
+CDSN	ASPH
+CD163L1	ITGAM
+CD163L1	GPR183
+CD163L1	VENTX
+CD163L1	CORO1A
+CD163L1	MRC1
+tRNA(Glu)	L-Glutamate
+DISC1	CEP57L1
+DISC1	GNL1
+DISC1	ARFIP2
+DISC1	YWHAZ
+FCMR	SPI1
+N6,N6,N6-Trimethyl-L-lysine	Succinate
+G2E3	RPS28
+N-Acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide	UDP-N-acetyl-D-galactosamine
+N-Acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide	GA2
+Acyl-CoA	Glycine
+Acyl-CoA	Phosphatidylcholine
+Acyl-CoA	Acetyl-CoA
+HCFC1	EGR2
+GYPB	HSD17B13
+IL2RB	KLRD1
+IL2RB	ITGAM
+IL2RB	IGKV1-8
+IL2RB	FCHO1
+IL2RB	IGHV3-49
+IL2RB	GPR183
+IL2RB	IGLV2-18
+IL2RB	SLC22A31
+IL2RB	FCER2
+IL2RB	CTLA4
+IL2RB	TRBV5-1
+IL2RB	UNC13D
+IL2RB	CORO1A
+IGHV3-33	SEL1L3
+IGHV3-33	MCOLN2
+IGHV3-33	UNC13D
+IGHV3-33	IGLV9-49
+HPD	MME
+XPO4	C5AR1
+XPO4	MTOR
+RBM11	EGR2
+Mercaptopyruvate	L-Glutamate
+FCER2	CTLA4
+FCER2	IGKV1-8
+FCER2	FCHO1
+FCER2	IGHV3-49
+FCER2	NIBAN3
+FCER2	CORO1A
+TRBV5-1	SH2D1A
+TRBV5-1	LAX1
+TRBV5-1	KLRD1
+TRBV5-1	CTLA4
+TRBV5-1	IGKV1-8
+TRBV5-1	FCHO1
+TRBV5-1	IGHV3-49
+TRBV5-1	GPR183
+TRBV5-1	IGLV2-18
+KIF13B	PANK2
+VCAN	GRK6
+GNL1	ABCF2
+gamma-Glutamyl-beta-aminopropiononitrile	3-Aminopropiononitrile
+gamma-Glutamyl-beta-aminopropiononitrile	L-Glutamate
+CTSK	MCOLN2
+CTSK	UNC13D
+CMTM3	CFP
+VHL	HIF1A
+L-Leucine	L-Glutamate
+CSF1R	SH3PXD2B
+CFP	NCR1
+CFP	MTOR
+CFP	TEKT5
+EGR2	SRA1
+Carboxylate	Phosphatidylcholine
+Acetyl-CoA	Glycine
+Malate	Oxaloacetate
+Malate	Fumarate
+N6-Succino-2-amino-2'-deoxyadenylate	dZMP
+N6-Succino-2-amino-2'-deoxyadenylate	Fumarate
+CMTM4	C5AR1
+Ubiquinone	Succinate
+ITGAL	ITGAM
+ITGAL	UNC13D
+ITGAL	VENTX
+ITGAL	IGLV2-18
+FCHO1	UNC13D
+FCHO1	GPR183
+FCHO1	IGLV2-18
+[Reduced NADPH---hemoprotein reductase]	20-OH-Leukotriene B4
+LACC1	RAC1
+LACC1	BRMS1L
+Hydroxypyruvate	Glycine
+IGLV2-18	LAX1
+IGLV2-18	KLRD1
+ADGRG2	CCR7
+CYTIP	H2BC14
+IGFBP6	PPP3CC
+MYLIP	ZNF302
+WARS1	DCAF13
+ST8SIA4	SH2D1A
+ST8SIA4	LAX1
+ST8SIA4	KLRD1
+IGHM	MAPKAPK3
+IGHM	MTOR
+SIRT2	PLA2G4A
+AGR3	CD46
+5-Formiminotetrahydrofolate	L-Glutamate
+5-Formiminotetrahydrofolate	Tetrahydrofolate
+RHOBTB3	COL9A2
+Sphingosine	sphingosine 1-phosphate
+Procollagen 5-hydroxy-L-lysine	Succinate
+CFH	UGDH
+CFH	GRB2
+CORO1A	MRC1
+CORO1A	GPR183
+GRIP1	XDH
+SLC22A31	UNC13D
+SLC22A31	IGLV9-49
+SCIMP	NCF4
+SCIMP	GRK6
+Protein N6,N6-dimethyl-L-lysine	Succinate
+NPRL3	GLA
+Glutaminyl-tRNA	L-Glutamate
+PPP3CC	XDH
+CD3D	S1PR4
+HSP90AA1	KEAP1
+HSP90AA1	HIF1A
+HSP90AA1	DCAF13
+HSP90AA1	JUP
+ITGAM	HSD17B13
+6-Thioguanosine monophosphate	6-Thioxanthine 5'-monophosphate
+C5AR1	YIPF3
+C5AR1	ELOVL2
+C5AR1	NELFE
+IGKV1-17	SNAI3
+IGKV1-17	KCNA3
+ALB	HSPA8
+[Protein]-(3S)-3-hydroxy-L-lysine	Succinate
+L-Valine	L-Glutamate
+5-Formylcytosine in DNA	Succinate
+3-(4-Hydroxyphenyl)pyruvate	L-Glutamate
+3-Aminopropiononitrile	L-Glutamate
+PDE3B	SPI1
+PDE3B	NCF4
+PAX5	UBASH3A
+PAX5	IGHV2-26
+UGDH	CR1
+N6-(1,2-Dicarboxyethyl)-AMP	Fumarate
+OCIAD1	ASPH
+SH2D1A	IGKV1-8
+SH2D1A	LAX1
+SH2D1A	KLRD1
+L-Glutamate	Carbamoyl phosphate
+L-Glutamate	Oxaloacetate
+L-Glutamate	L-Cysteine
+L-Glutamate	L-2-Aminoadipate 6-semialdehyde
+L-Glutamate	6-Thioxanthine 5'-monophosphate
+UDP-N-acetyl-D-galactosamine	UDP
+Arachidonyl-CoA	Ferrocytochrome b5
+C5AR1	MRC1
+L-Alanine	Reduced acceptor
+L-Alanine	Glycine
+L-Alanine	Acceptor
+L-Alanine	L-Cysteine
+PLA2G4A	SHBG
+SNTG1	VTN
+Tetrahydrofolate	Glycine
+Tetrahydrofolate	Dihydrofolate
+CPB2	F2
+LAX1	IGKV1-8
+LAX1	KLRD1
+LAX1	PLCB2
+LAX1	IGHV3-49
+Carbamoyl phosphate	L-Citrulline
+Protein N6-methyl-L-lysine	Succinate
+VTI1B	CD46
+VTI1B	ASPH
+GRB2	SHBG
+GRB2	LNX2
+FAM47E	COL4A3
+KEAP1	KRT31
+MAPK14	MYC
+MAPK14	MAPKAPK3
+dZMP	Fumarate
+FCRL3	TAGAP
+L-Cysteine-S-conjugate	Aryl thiol
+SPI1	RUNX3
+SPINK1	ASPH
+4-Trimethylammoniobutanoate	Succinate
+ITGAM	GPR183
+Glycine	L-Cysteine
+Glycine	L-Arginine
+FCGR2A	HCST
+Methaneselenol	Se-Methyl-L-selenocysteine
+CTHRC1	CTLA4
+CTHRC1	GPR183
+CTHRC1	TLR6
+SLAMF7	SNAI3
+SLAMF7	NCF4
+SLAMF7	KCNA3
+CCK	MYC
+CXCR4	RUBCNL
+Reduced acceptor	Acceptor
+Reduced acceptor	L-Cysteine
+FAM9A	SNX12
+NCF4	SNAI3
+Quinone	Succinate
+CTLA4	IGHV3-49
+CTLA4	GPR183
+IGHV2-26	GRK6
+MYC	HIF1A
+MYC	SNX12
+GRK6	SNAI3
+Hexadecenal	sphingosine 1-phosphate
+TLR6	HCST
+Succinate	7-[(3S)-(3-Amino-3-carboxypropyl)]wyosine in tRNA(Phe)
+Succinate	[Protein]-(3S)-3-hydroxy-L-histidine
+Succinate	Fumarate
+FCN3	COL14A1
+FCN3	CR1
+HCST	TAGAP
+Phosphatidylcholine	Linoleate
+MTOR	CXCR4
+UDP-glucose	UDP
+PRLR	FCAMR
+YIPF3	CXCR4
+L-Arginine	beta-Alanine
+RING1	SNX12
+L-Cysteine	Acceptor
+SNAI3	KCNA3
+MRC1	C3
+IGHV3-49	GPR183
+ANO1	ZBED8
+LNX2	VTN
+SMS	5'-Methylthioadenosine
+SMS	spermidine
+SMS	S-Adenosylmethioninamine
+Thioredoxin disulfide	PRDX1
+Thioredoxin disulfide	PRDX4
+L-Kynurenine	KYAT3
+L-Kynurenine	KYNU
+CTP	CMAS
+Hypoxanthine	LACC1
+Hypoxanthine	XDH
+CMP-N-acetylneuraminate	CMAS
+Ferricytochrome b5	MSMO1
+4-(2-Amino-3-hydroxyphenyl)-2,4-dioxobutanoate	KYAT3
+D-Glucose	GLA
+D-Glucose	GBA1
+Prostaglandin H2	PTGES2
+IMP	CANT1
+4-(2-Aminophenyl)-2,4-dioxobutanoate	KYAT3
+N-Acetylneuraminic acid	CMAS
+PRDX1	Thioredoxin
+Thiol	USP7
+Thiol	ZRANB1
+Thiol	KYAT3
+L-Homocysteine	KYAT3
+Pyruvate	PC
+Pyruvate	KYAT3
+Pyruvate	CFHR3
+THF-polyglutamate	GGH
+Putrescine	SAT2
+Hydrogen sulfide	KYAT3
+QPRT	5-Phospho-alpha-D-ribose 1-diphosphate
+alpha-D-Ribose 1-phosphate	LACC1
+beta-Citryl-L-glutamate	RIMKLB
+PC	Oxaloacetate
+PC	HCO3-
+Urea	AGMAT
+SDHB	Succinate
+SDHB	Fumarate
+SDHB	Ubiquinone
+SDHB	Quinone
+SDHB	Hydroquinone
+Anthranilic acid	KYNU
+Dihydroceramide	CERS4
+Dihydroceramide	CERS5
+3-Hydroxy-L-kynurenine	KYAT3
+3-Hydroxy-L-kynurenine	KYNU
+L-Glutamine	KYAT3
+Xanthine	LACC1
+Xanthine	XDH
+Hydroquinone	UQCRFS1
+IDH3A	2-Oxoglutarate
+IDH3A	Isocitrate
+CERS5	Acyl-CoA
+CERS5	Ceramide
+CERS5	Sphingosine
+5(S)-HPETE	ALOX5
+20-HETE	CYP2U1
+NDP	CANT1
+KYAT3	L-Glutamate
+KYAT3	2-Oxoglutarate
+KYAT3	L-Phenylalanine
+KYAT3	L-Cysteine
+KYAT3	Phenylpyruvate
+KYAT3	L-Cystine
+KYAT3	Alkyl thiol
+KYAT3	2-Oxoglutaramate
+KYAT3	Aryl thiol
+KYAT3	Kynurenic acid
+KYAT3	L-Cystathionine
+KYAT3	S-Alkyl-L-cysteine
+KYAT3	L-Cysteine-S-conjugate
+KYAT3	Se-Methyl-L-selenocysteine
+KYAT3	Selenohomocysteine
+KYAT3	L-Selenocystathionine
+KYAT3	Methaneselenol
+UGT1A1	UDP
+CANT1	UDP
+CANT1	IDP
+CANT1	GMP
+N-Acetylaspartylglutamate	RIMKLB
+MSMO1	Ferrocytochrome b5
+GBA1	Ceramide
+GBA1	Sphingosine
+GBA1	Glucosylceramide
+Leukotriene B4	CYP4F3
+MDH2	Oxaloacetate
+MDH2	Malate
+KYNU	L-Alanine
+KYNU	L-Formylkynurenine
+KYNU	Formylanthranilate
+[Oxidized NADPH---hemoprotein reductase]	CYP4F3
+[Oxidized NADPH---hemoprotein reductase]	CYP2U1
+RIMKLB	L-Glutamate
+RIMKLB	Citrate
+3-Oxoacyl-CoA	ELOVL4
+3-Oxoacyl-CoA	ELOVL2
+Taurine	GATM
+CFHR1	Oxaloacetate
+GMP	PDE3B
+CERK	Ceramide
+CERK	Ceramide 1-phosphate
+Arachidonic acid	ACOT2
+Arachidonic acid	ACOT1
+Arachidonic acid	PLA2G4A
+Arachidonic acid	ALOX5
+Arachidonic acid	CYP2U1
+PTGES2	Prostaglandin E2
+Phosphatidylethanolamine	PLA2G4A
+CERS4	Acyl-CoA
+CERS4	Ceramide
+CERS4	Sphingosine
+ACOT2	Linoleate
+ACOT2	Arachidonyl-CoA
+ACOT2	(9Z,12Z,15Z)-Octadecatrienoic acid
+2-Oxoglutarate	ASPH
+2-Oxoglutarate	IDH3B
+2-Oxoglutarate	CFH
+Peptide 3-hydroxy-L-aspartate	ASPH
+SPHK2	Sphingosine
+SPHK2	sphingosine 1-phosphate
+Deoxyinosine	LACC1
+2-Lysophosphatidylcholine	PLA2G4A
+IDH3B	Isocitrate
+ALOX5	Leukotriene A4
+ELOVL4	Acyl-CoA
+Ferrocytochrome c	UQCRFS1
+Galactosylceramide	GLA
+GNPTAB	UDP-N-acetyl-alpha-D-glucosamine
+Lactosylceramide	GLA
+SAT2	Acetyl-CoA
+SAT2	N-Acetylputrescine
+GGH	L-Glutamate
+GGH	Tetrahydrofolate
+UQCRFS1	Ubiquinone
+UQCRFS1	Quinone
+KAT5	Acetyl-CoA
+Guanidinoacetate	GATM
+PRDX4	Thioredoxin
+L-Ornithine	GATM
+Prostaglandin F2alpha	CBR3
+Hydrogen peroxide	XDH
+Taurocyamine	GATM
+CBR3	Prostaglandin E2
+GATM	Glycine
+GATM	L-Arginine
+CYP4F3	[Reduced NADPH---hemoprotein reductase]
+CYP4F3	20-OH-Leukotriene B4
+Xanthosine	LACC1
+ACOT1	Linoleate
+ACOT1	Arachidonyl-CoA
+ACOT1	(9Z,12Z,15Z)-Octadecatrienoic acid
+Uric acid	XDH
+Fatty acid	PLA2G4A
+Fatty acid	CYP2U1
+Peptide L-aspartate	ASPH
+Acyl-CoA	ELOVL2
+Carboxylate	PLA2G4A
+[Reduced NADPH---hemoprotein reductase]	CYP2U1
+LACC1	5'-Methylthioadenosine
+LACC1	Guanine
+(9Z,12Z,15Z)-Octadecatrienoic acid	PLA2G4A
+UGDH	UDP-glucose
+AGMAT	beta-Alanine
+AGMAT	3-Guanidinopropanoate
+L-Glutamate	CR1
+PLA2G4A	Phosphatidylcholine
+PLA2G4A	Linoleate
+N-Acetyl-D-galactosamine	GALK2
+Succinate	ASPH

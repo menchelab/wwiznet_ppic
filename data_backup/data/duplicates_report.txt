@@ -1,0 +1,151 @@
+Duplicate-name report for nodes.tsv / edges.tsv
+Generated: 2026-09-24
+Total duplicate names: 20
+
+Every one of the 20 duplicate name-pairs below has a DIRECT EDGE connecting its two
+numeric ids to each other (i.e. id_a <-> id_b, both named the same gene). Otherwise
+their other neighbors are disjoint. type_a is identical between the two rows in each pair.
+This looks like a data artifact (the same gene split across two node records that
+also carry an edge to each other) rather than a meaningful protein/transcript split.
+
+====================================================================================================
+
+ASF1B  (ids: 90, 407)
+  id 90: degree_n=5 type_a=protein,transcript degree(actual)=5
+    other neighbors: ['UBXN1', 'UBE2I', 'H3-3B', 'C3']
+  id 407: degree_n=2 type_a=protein,transcript degree(actual)=2
+    other neighbors: ['HCK']
+  direct edge between the two ids: yes
+
+C1QA  (ids: 30, 98)
+  id 30: degree_n=3 type_a=transcript degree(actual)=3
+    other neighbors: ['TNFRSF11A', 'CCR2']
+  id 98: degree_n=4 type_a=transcript degree(actual)=4
+    other neighbors: ['CRP', 'ITGAV', 'CCDC134']
+  direct edge between the two ids: yes
+
+C3  (ids: 213, 855)
+  id 213: degree_n=20 type_a=protein,transcript degree(actual)=20
+    other neighbors: ['ITGB2', 'ASF1B', 'C5', 'SRRT', 'GNG8', 'HSP90AA1', 'CFHR1', 'HMGB1', 'CFB', 'CFHR3', 'CFHR5', 'CFI', 'CRP', 'VHL', 'CFP', 'CR1', 'CD46', 'CFH', 'KRT31']
+  id 855: degree_n=5 type_a=protein,transcript degree(actual)=5
+    other neighbors: ['VSIG4', 'CD163', 'MYC', 'MRC1']
+  direct edge between the two ids: yes
+
+C3AR1  (ids: 457, 659)
+  id 457: degree_n=6 type_a=transcript degree(actual)=6
+    other neighbors: ['CCR5', 'CD209', 'GPR183', 'LILRB5', 'CD163L1']
+  id 659: degree_n=6 type_a=transcript degree(actual)=6
+    other neighbors: ['POMK', 'CERS5', 'ATP5PB', 'VEZT', 'RDH14']
+  direct edge between the two ids: yes
+
+C5AR1  (ids: 694, 725)
+  id 694: degree_n=16 type_a=protein,transcript degree(actual)=16
+    other neighbors: ['FANCD2', 'C5', 'CANT1', 'TUBGCP2', 'CERS4', 'PKD2', 'ITPR2', 'VPS8', 'GNPTAB', 'XPO6', 'XPO4', 'CMTM4', 'YIPF3', 'ELOVL2', 'NELFE']
+  id 725: degree_n=6 type_a=protein,transcript degree(actual)=6
+    other neighbors: ['VSIG4', 'CD163', 'CFP', 'CD209', 'MRC1']
+  direct edge between the two ids: yes
+
+CFH  (ids: 592, 669)
+  id 592: degree_n=3 type_a=protein,transcript degree(actual)=3
+    other neighbors: ['SLC9B2', 'IL7R']
+  id 669: degree_n=9 type_a=protein,transcript degree(actual)=9
+    other neighbors: ['C3', 'CFHR1', 'CFI', 'CFHR3', 'CRP', 'UGDH', 'GRB2', '2-Oxoglutarate']
+  direct edge between the two ids: yes
+
+CFP  (ids: 257, 622)
+  id 257: degree_n=7 type_a=protein,transcript degree(actual)=7
+    other neighbors: ['IL7R', 'LILRB5', 'C5AR1', 'CORO1A', 'IL2RB', 'CD163L1']
+  id 622: degree_n=8 type_a=protein,transcript degree(actual)=8
+    other neighbors: ['C3', 'CFHR1', 'CFB', 'CMTM3', 'NCR1', 'MTOR', 'TEKT5']
+  direct edge between the two ids: yes
+
+CMTM3  (ids: 88, 615)
+  id 88: degree_n=4 type_a=protein,transcript degree(actual)=4
+    other neighbors: ['TSPAN32', 'CD300A', 'PARP15']
+  id 615: degree_n=4 type_a=protein,transcript degree(actual)=4
+    other neighbors: ['SYT2', 'ELOVL4', 'CFP']
+  direct edge between the two ids: yes
+
+CXCR4  (ids: 779, 873)
+  id 779: degree_n=5 type_a=protein,transcript degree(actual)=5
+    other neighbors: ['NELL2', 'STAT4', 'MS4A1', 'RUBCNL']
+  id 873: degree_n=7 type_a=protein,transcript degree(actual)=7
+    other neighbors: ['CERS5', 'DDX19B', 'VEZT', 'PDS5B', 'MTOR', 'YIPF3']
+  direct edge between the two ids: yes
+
+IGHM  (ids: 347, 657)
+  id 347: degree_n=3 type_a=transcript degree(actual)=3
+    other neighbors: ['IGHV3-20', 'RHOH']
+  id 657: degree_n=7 type_a=transcript degree(actual)=7
+    other neighbors: ['PATL1', 'SH3GL2', 'GNG8', 'SREBF2', 'MAPKAPK3', 'MTOR']
+  direct edge between the two ids: yes
+
+ITGAM  (ids: 690, 765)
+  id 690: degree_n=16 type_a=protein,transcript degree(actual)=16
+    other neighbors: ['ITGB2', 'TMEM14B', 'MED10', 'MUC1', 'GNG8', 'GJA8', 'KCNJ6', 'CERS4', 'GJB1', 'DKK4', 'SYT2', 'ELOVL4', 'BCAP31', 'REEP2', 'HSD17B13']
+  id 765: degree_n=9 type_a=protein,transcript degree(actual)=9
+    other neighbors: ['CCR5', 'IL12RB1', 'CCR2', 'IL7R', 'CD163L1', 'IL2RB', 'ITGAL', 'GPR183']
+  direct edge between the two ids: yes
+
+ITGB2  (ids: 20, 526)
+  id 20: degree_n=16 type_a=protein,transcript degree(actual)=16
+    other neighbors: ['NOTCH2NLC', 'ITGAM', 'KRT31', 'ZNF597', 'FOXD4L6', 'PRKCG', 'SLC25A20', 'MYC', 'ARFIP2', 'TM4SF18', 'FAM9A', 'C3', 'GNG8', 'RING1', 'PRPH2']
+  id 526: degree_n=9 type_a=protein,transcript degree(actual)=9
+    other neighbors: ['CLEC10A', 'KTI12', 'IL12RB1', 'IL7R', 'GCNT1', 'LILRB5', 'IL2RB', 'CD163L1']
+  direct edge between the two ids: yes
+
+MTMR3  (ids: 555, 744)
+  id 555: degree_n=2 type_a=transcript degree(actual)=2
+    other neighbors: ['SRC']
+  id 744: degree_n=2 type_a=transcript degree(actual)=2
+    other neighbors: ['ALOX5']
+  direct edge between the two ids: yes
+
+MYC  (ids: 518, 803)
+  id 518: degree_n=3 type_a=protein,transcript degree(actual)=3
+    other neighbors: ['CD163', 'C3']
+  id 803: degree_n=10 type_a=protein,transcript degree(actual)=10
+    other neighbors: ['ITGB2', 'PRDX1', 'USP7', 'PDS5B', 'KAT5', 'MAPK14', 'CCK', 'HIF1A', 'SNX12']
+  direct edge between the two ids: yes
+
+NELL2  (ids: 65, 105)
+  id 65: degree_n=6 type_a=transcript degree(actual)=6
+    other neighbors: ['CXCR4', 'LY9', 'STAT4', 'IGHV3-64', 'IGKV3D-15']
+  id 105: degree_n=2 type_a=transcript degree(actual)=2
+    other neighbors: ['ASPH']
+  direct edge between the two ids: yes
+
+PDE3B  (ids: 549, 705)
+  id 549: degree_n=3 type_a=transcript degree(actual)=3
+    other neighbors: ['LGR4', 'GMP']
+  id 705: degree_n=6 type_a=transcript degree(actual)=6
+    other neighbors: ['HCLS1', 'RNASE6', 'IGLV7-43', 'SPI1', 'NCF4']
+  direct edge between the two ids: yes
+
+PKD2  (ids: 321, 607)
+  id 321: degree_n=2 type_a=protein,transcript degree(actual)=2
+    other neighbors: ['C5AR1']
+  id 607: degree_n=1 type_a=protein,transcript degree(actual)=1
+    other neighbors: []
+  direct edge between the two ids: yes
+
+PRDX4  (ids: 462, 550)
+  id 462: degree_n=10 type_a=protein,transcript degree(actual)=10
+    other neighbors: ['PRDX1', 'RCHY1', 'CFHR1', 'ATXN1', 'CLIC1', 'VTN', 'CFHR3', 'Thioredoxin disulfide', 'Thioredoxin']
+  id 550: degree_n=1 type_a=protein,transcript degree(actual)=1
+    other neighbors: []
+  direct edge between the two ids: yes
+
+SRC  (ids: 388, 866)
+  id 388: degree_n=4 type_a=protein,transcript degree(actual)=4
+    other neighbors: ['DHRS3', 'PDCD2', 'CKAP5']
+  id 866: degree_n=2 type_a=protein,transcript degree(actual)=2
+    other neighbors: ['MTMR3']
+  direct edge between the two ids: yes
+
+ST8SIA4  (ids: 651, 703)
+  id 651: degree_n=6 type_a=transcript degree(actual)=6
+    other neighbors: ['BLK', 'PRF1', 'SH2D1A', 'LAX1', 'KLRD1']
+  id 703: degree_n=2 type_a=transcript degree(actual)=2
+    other neighbors: ['PRKD2']
+  direct edge between the two ids: yes
