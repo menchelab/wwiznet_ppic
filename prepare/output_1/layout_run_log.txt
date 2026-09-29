@@ -1,0 +1,451 @@
+########################################################################
+# cmd: run_layouts.py -i /Users/ph/Documents/code/wwiznet_ppimetabolite/prepare/raw_input -o /Users/ph/Documents/code/wwiznet_ppimetabolite/prepare/output_1 --no-progress
+# started: 2026-09-29T14:10:53+00:00
+# cwd: /Users/ph/Documents/code/multilayer_layout_experiments
+# python: /Users/ph/.pyenv/versions/3.12.7/bin/python3 (3.12.7)
+# input: /Users/ph/Documents/code/wwiznet_ppimetabolite/prepare/raw_input
+# output: /Users/ph/Documents/code/wwiznet_ppimetabolite/prepare/output_1
+# graph: nodes=263 edges=317 components=1 giant=263 isolated=0
+# layers: layer_c order=transcript,protein,metabolite (transcript=141, protein=90, metabolite=32)
+# selected: 44 layout(s): shell_1, shell_2, fa2_1, fa2_2, fa2_3, fa2sep_1, fa23d_1, fa23d_2, fr3d_1, fr3d_2, topodeg_1, topobet_1, kk3d_1, kk3d_2, mds_1, mds_2, spectral_1, spectral_2, n2vbal_1, n2vbfs_1, n2vdfs_1, fa2spectral_1, isomap_1, hyp_1, hive3_1, hive5_1, community_1, community_shellz_1, n2vbal_phate_1, n2vbal_pacmap_1, n2vbfs_pacmap_1, n2vdfs_pacmap_1, n2vlayered_1, landscape_1, rwr_1, paga_1, metapath_1, ensemble_1, domaintouch_1, raritytouch_1, n2vbal_densmap_1, fa2rarity_1, shell_rarity_1, n2vbal_tsne_1
+# skipped: fa2pathway_1: column 'pathways_a' absent
+# skipped: pathway_landscape_1: column 'pathways_a' absent
+# seeded /Users/ph/Documents/code/wwiznet_ppimetabolite/prepare/output_1/nodes.tsv from /Users/ph/Documents/code/wwiznet_ppimetabolite/prepare/raw_input/nodes.tsv
+# copied /Users/ph/Documents/code/wwiznet_ppimetabolite/prepare/raw_input/edges.tsv -> /Users/ph/Documents/code/wwiznet_ppimetabolite/prepare/output_1/edges.tsv
+########################################################################
+
+[2026-09-29T14:10:53+00:00] base=fa2pathway_1 status=SKIPPED: column 'pathways_a' absent
+  method: (skipped)
+  call: (not run)
+  params: {}
+  seed: 42
+  weighting: 
+  nodes=263 edges=317
+
+[2026-09-29T14:10:53+00:00] base=pathway_landscape_1 status=SKIPPED: column 'pathways_a' absent
+  method: (skipped)
+  call: (not run)
+  params: {}
+  seed: 42
+  weighting: 
+  nodes=263 edges=317
+
+[2026-09-29T14:10:53+00:00] base=shell_1 status=OK
+  method: Concentric shell layout, inner -> outer: transcript / protein / metabolite
+  call: deterministic Fibonacci-sphere placement per layer (no simulation)
+  params: {'order': ('transcript', 'protein', 'metabolite'), 'shell_r_base': 1.0, 'shell_min_gap_factor': 1.5, 'radii': {'transcript': 11.8743, 'protein': 17.8115, 'metabolite': 26.7173}}
+  seed: 42
+  weighting: none
+  nodes=263 edges=317
+  fallback: node order within each shell: (connected-component rank, then id) so same-component nodes are angularly contiguous; handles isolated nodes naturally as trivial 1-node components
+
+[2026-09-29T14:10:53+00:00] base=shell_2 status=OK
+  method: Concentric shell layout (reversed), inner -> outer: metabolite / protein / transcript
+  call: deterministic Fibonacci-sphere placement per layer (no simulation)
+  params: {'order': ('metabolite', 'protein', 'transcript'), 'shell_r_base': 1.0, 'shell_min_gap_factor': 1.5, 'radii': {'metabolite': 5.6569, 'protein': 9.4868, 'transcript': 14.2302}}
+  seed: 42
+  weighting: none
+  nodes=263 edges=317
+  fallback: reversed radius order variant of shell_1; same node-ordering rule
+
+[2026-09-29T14:10:53+00:00] base=fa2_1 status=OK
+  method: ForceAtlas2 (shared xy, discrete z per layer)
+  call: nx.forceatlas2_layout(G, max_iter=100, seed=42, dim=2)
+  params: {'max_iter': 100, 'seed': 42, 'dim': 2}
+  seed: 42
+  weighting: unweighted
+  nodes=263 edges=317
+  fallback: 0 isolated nodes ring-placed per layer at z={'transcript': -94.67742462158203, 'protein': 0.0, 'metabolite': 94.67742462158203}
+
+[2026-09-29T14:10:53+00:00] base=fa2_2 status=OK
+  method: ForceAtlas2 (linlog + dissuade_hubs, shared xy, discrete z per layer)
+  call: nx.forceatlas2_layout(G, max_iter=100, seed=42, dim=2, linlog=True, dissuade_hubs=True)
+  params: {'max_iter': 100, 'seed': 42, 'dim': 2, 'linlog': True, 'dissuade_hubs': True}
+  seed: 42
+  weighting: unweighted
+  nodes=263 edges=317
+  fallback: 0 isolated nodes ring-placed per layer at z={'transcript': -334.3304992675781, 'protein': 0.0, 'metabolite': 334.3304992675781}
+
+[2026-09-29T14:10:54+00:00] base=fa2_3 status=OK
+  method: ForceAtlas2 (cross-layer down-weighted, shared xy, discrete z per layer)
+  call: nx.forceatlas2_layout(G, max_iter=100, seed=42, dim=2, weight='fa_weight')
+  params: {'max_iter': 100, 'seed': 42, 'dim': 2, 'weight': 'fa_weight'}
+  seed: 42
+  weighting: attraction: within=1.0, cross=0.2
+  nodes=263 edges=317
+  fallback: 0 isolated nodes ring-placed per layer at z={'transcript': -103.93770904541016, 'protein': 0.0, 'metabolite': 103.93770904541016}
+
+[2026-09-29T14:10:54+00:00] base=fa2sep_1 status=OK
+  method: ForceAtlas2 run independently per layer (induced subgraphs), xy left overlapping across layers, z-stacked
+  call: nx.forceatlas2_layout(layer_subgraph, max_iter=100, seed=42, dim=2) x3
+  params: {'max_iter': 100, 'seed': 42, 'dim': 2, 'layers': ('transcript', 'protein', 'metabolite')}
+  seed: 42
+  weighting: none (cross-layer edges excluded by induced subgraph)
+  nodes=263 edges=317
+  fallback: 4 within-layer-isolated nodes ring-placed per their own layer at z={'transcript': -65.52612762451172, 'protein': 0.0, 'metabolite': 65.52612762451172}
+
+[2026-09-29T14:10:54+00:00] base=fa23d_1 status=OK
+  method: ForceAtlas2 native 3D
+  call: nx.forceatlas2_layout(G, max_iter=100, seed=42, dim=3)
+  params: {'max_iter': 100, 'seed': 42, 'dim': 3}
+  seed: 42
+  weighting: unweighted
+  nodes=263 edges=317
+  fallback: 0 isolated nodes placed on a Fibonacci-sphere shell
+
+[2026-09-29T14:10:54+00:00] base=fa23d_2 status=OK
+  method: ForceAtlas2 native 3D, cross-layer down-weighted
+  call: nx.forceatlas2_layout(G, max_iter=100, seed=42, dim=3, weight='fa_weight')
+  params: {'max_iter': 100, 'seed': 42, 'dim': 3, 'weight': 'fa_weight'}
+  seed: 42
+  weighting: attraction: within=1.0, cross=0.2
+  nodes=263 edges=317
+  fallback: 0 isolated nodes placed on a Fibonacci-sphere shell
+
+[2026-09-29T14:10:54+00:00] base=fr3d_1 status=OK
+  method: Fruchterman-Reingold / spring, native 3D
+  call: nx.spring_layout(G, dim=3, seed=42)
+  params: {'dim': 3, 'seed': 42}
+  seed: 42
+  weighting: unweighted
+  nodes=263 edges=317
+  fallback: 0 isolated nodes placed on a Fibonacci-sphere shell
+
+[2026-09-29T14:10:54+00:00] base=fr3d_2 status=OK
+  method: Fruchterman-Reingold / spring, native 3D, cross-layer down-weighted
+  call: nx.spring_layout(G, dim=3, seed=42, weight='fa_weight')
+  params: {'dim': 3, 'seed': 42, 'weight': 'fa_weight'}
+  seed: 42
+  weighting: attraction: within=1.0, cross=0.2
+  nodes=263 edges=317
+  fallback: 0 isolated nodes placed on a Fibonacci-sphere shell
+
+[2026-09-29T14:10:54+00:00] base=topodeg_1 status=OK
+  method: Centrality-elevation hybrid: fa2_1 xy + z from degree_centrality
+  call: nx.degree_centrality(G)
+  params: {'reused_fa2_1_xy': True}
+  seed: 42
+  weighting: none
+  nodes=263 edges=317
+  fallback: z = normalized degree_centrality, scaled to xy spread (631.1828)
+
+[2026-09-29T14:10:54+00:00] base=topobet_1 status=OK
+  method: Centrality-elevation hybrid: fa2_1 xy + z from betweenness_centrality
+  call: nx.betweenness_centrality(G)
+  params: {'reused_fa2_1_xy': True}
+  seed: 42
+  weighting: none
+  nodes=263 edges=317
+  fallback: z = normalized betweenness_centrality, scaled to xy spread (631.1828)
+
+[2026-09-29T14:10:55+00:00] base=kk3d_1 status=OK
+  method: Kamada-Kawai on giant component (263 nodes) + deterministic fallback shell for 0 remaining nodes
+  call: nx.kamada_kawai_layout(giant_subgraph, dim=3, weight=...)
+  params: {'dim': 3, 'weight': None}
+  seed: 42
+  weighting: unweighted (hop distance)
+  nodes=263 edges=317
+  fallback: 0 nodes outside the giant component (isolated + small components) placed via Fibonacci-sphere shell, radius_factor=1.35
+
+[2026-09-29T14:10:55+00:00] base=kk3d_2 status=OK
+  method: Kamada-Kawai on giant component (263 nodes) + deterministic fallback shell for 0 remaining nodes
+  call: nx.kamada_kawai_layout(giant_subgraph, dim=3, weight=...)
+  params: {'dim': 3, 'weight': 'kk_weight'}
+  seed: 42
+  weighting: distance: within=1.0, cross=3.0
+  nodes=263 edges=317
+  fallback: 0 nodes outside the giant component (isolated + small components) placed via Fibonacci-sphere shell, radius_factor=1.35
+
+[2026-09-29T14:10:56+00:00] base=mds_1 status=OK
+  method: Classical MDS on shortest-path distance matrix (giant component only)
+  call: sklearn.manifold.MDS(n_components=3, dissimilarity='precomputed', random_state=42, n_init=4)
+  params: {'n_components': 3, 'random_state': 42, 'n_init': 4, 'weight': None}
+  seed: 42
+  weighting: unweighted hop count
+  nodes=263 edges=317
+  fallback: 0 nodes outside the giant component placed via Fibonacci-sphere shell, radius_factor=1.35
+
+[2026-09-29T14:10:56+00:00] base=mds_2 status=OK
+  method: Classical MDS on shortest-path distance matrix (giant component only)
+  call: sklearn.manifold.MDS(n_components=3, dissimilarity='precomputed', random_state=42, n_init=4)
+  params: {'n_components': 3, 'random_state': 42, 'n_init': 4, 'weight': 'mds_hop_weight'}
+  seed: 42
+  weighting: hop length: within=1.0, cross=3.0
+  nodes=263 edges=317
+  fallback: 0 nodes outside the giant component placed via Fibonacci-sphere shell, radius_factor=1.35
+
+[2026-09-29T14:10:56+00:00] base=spectral_1 status=OK
+  method: Spectral embedding (Laplacian eigenmaps) on adjacency matrix (giant component only)
+  call: sklearn.manifold.SpectralEmbedding(n_components=3, affinity='precomputed', random_state=42)
+  params: {'n_components': 3, 'random_state': 42}
+  seed: 42
+  weighting: unweighted adjacency
+  nodes=263 edges=317
+  fallback: epsilon=0.001 background added to adjacency for numerical stability; 0 nodes outside the giant component placed via Fibonacci-sphere shell, radius_factor=1.35
+
+[2026-09-29T14:10:56+00:00] base=spectral_2 status=OK
+  method: Spectral embedding (Laplacian eigenmaps) on adjacency matrix (giant component only)
+  call: sklearn.manifold.SpectralEmbedding(n_components=3, affinity='precomputed', random_state=42)
+  params: {'n_components': 3, 'random_state': 42}
+  seed: 42
+  weighting: adjacency weighted: within=1.0, cross=0.2
+  nodes=263 edges=317
+  fallback: epsilon=0.001 background added to adjacency for numerical stability; 0 nodes outside the giant component placed via Fibonacci-sphere shell, radius_factor=1.35
+
+[2026-09-29T14:11:15+00:00] base=n2vbal_1 status=OK
+  method: node2vec (p=1, q=1) embedding + UMAP(3D), giant component only
+  call: Node2Vec(giant_subgraph, dimensions=64, walk_length=30, num_walks=200, p=1, q=1, seed=42, workers=1).fit(window=10, min_count=1, seed=42, workers=1) -> umap.UMAP(n_components=3, n_neighbors=15, min_dist=0.5, spread=2.0, metric='cosine', random_state=42)
+  params: {'p': 1, 'q': 1, 'dimensions': 64, 'walk_length': 30, 'num_walks': 200, 'seed': 42, 'workers': 1, 'umap_n_neighbors': 15, 'umap_min_dist': 0.5, 'umap_spread': 2.0, 'umap_metric': 'cosine'}
+  seed: 42
+  weighting: none (unweighted random walks)
+  nodes=263 edges=317
+  fallback: 0 nodes outside the giant component (random walks can't leave a disconnected component) placed via Fibonacci-sphere shell, radius_factor=1.35
+
+[2026-09-29T14:11:26+00:00] base=n2vbfs_1 status=OK
+  method: node2vec (p=0.25, q=4) embedding + UMAP(3D), giant component only
+  call: Node2Vec(giant_subgraph, dimensions=64, walk_length=30, num_walks=200, p=0.25, q=4, seed=42, workers=1).fit(window=10, min_count=1, seed=42, workers=1) -> umap.UMAP(n_components=3, n_neighbors=15, min_dist=0.5, spread=2.0, metric='cosine', random_state=42)
+  params: {'p': 0.25, 'q': 4, 'dimensions': 64, 'walk_length': 30, 'num_walks': 200, 'seed': 42, 'workers': 1, 'umap_n_neighbors': 15, 'umap_min_dist': 0.5, 'umap_spread': 2.0, 'umap_metric': 'cosine'}
+  seed: 42
+  weighting: none (unweighted random walks)
+  nodes=263 edges=317
+  fallback: 0 nodes outside the giant component (random walks can't leave a disconnected component) placed via Fibonacci-sphere shell, radius_factor=1.35
+
+[2026-09-29T14:11:41+00:00] base=n2vdfs_1 status=OK
+  method: node2vec (p=4, q=0.25) embedding + UMAP(3D), giant component only
+  call: Node2Vec(giant_subgraph, dimensions=64, walk_length=30, num_walks=200, p=4, q=0.25, seed=42, workers=1).fit(window=10, min_count=1, seed=42, workers=1) -> umap.UMAP(n_components=3, n_neighbors=15, min_dist=0.5, spread=2.0, metric='cosine', random_state=42)
+  params: {'p': 4, 'q': 0.25, 'dimensions': 64, 'walk_length': 30, 'num_walks': 200, 'seed': 42, 'workers': 1, 'umap_n_neighbors': 15, 'umap_min_dist': 0.5, 'umap_spread': 2.0, 'umap_metric': 'cosine'}
+  seed: 42
+  weighting: none (unweighted random walks)
+  nodes=263 edges=317
+  fallback: 0 nodes outside the giant component (random walks can't leave a disconnected component) placed via Fibonacci-sphere shell, radius_factor=1.35
+
+[2026-09-29T14:11:42+00:00] base=fa2spectral_1 status=OK
+  method: ForceAtlas2 seeded with a spectral embedding (fCoSE-style warm start), z-stacked
+  call: nx.forceatlas2_layout(G, pos=spectral_positions(G, 2), max_iter=100, seed=42, dim=2)
+  params: {'max_iter': 100, 'seed': 42, 'dim': 2, 'seeded': True}
+  seed: 42
+  weighting: unweighted
+  nodes=263 edges=317
+  fallback: 0 isolated nodes ring-placed per layer at z={'transcript': -138132348.41538724, 'protein': 0.0, 'metabolite': 138132348.41538724}
+
+[2026-09-29T14:11:42+00:00] base=isomap_1 status=OK
+  method: Isomap on giant component's hop-distance matrix (k-NN-restricted geodesic embedding)
+  call: sklearn.manifold.Isomap(n_neighbors=10, n_components=3, metric='precomputed')
+  params: {'n_neighbors': 10, 'n_components': 3}
+  seed: 42
+  weighting: unweighted hop count
+  nodes=263 edges=317
+  fallback: 0 nodes outside the giant component placed via Fibonacci-sphere shell, radius_factor=1.35
+
+[2026-09-29T14:11:42+00:00] base=hyp_1 status=OK
+  method: Hyperbolic-radius layout: r=1-tanh(degree/beta) (Poincare-ball-inspired, per arXiv:2505.20378), theta from fa2_1 azimuth, phi banded by layer
+  call: r=(1-tanh(degree/beta))*HYP_RADIUS_SCALE; theta=atan2(fa2_1 xy); phi=layer band
+  params: {'beta': 2.4106, 'radius_scale': 50.0, 'layer_polar_angle': {'transcript': 0.5236, 'protein': 1.5708, 'metabolite': 2.618}}
+  seed: 42
+  weighting: none
+  nodes=263 edges=317
+  fallback: isolated (degree-0) nodes land exactly on the boundary (r=HYP_RADIUS_SCALE) automatically via r=(1-tanh(0/beta))=1 -- no separate fallback placement needed
+
+[2026-09-29T14:11:42+00:00] base=hive3_1 status=OK
+  method: Hive-plot-inspired 3-axis layout: one radial spoke per layer, ordered by degree
+  call: deterministic geometry (no simulation); axis directions from fibonacci_sphere(3)
+  params: {'axis_length': 50.0, 'axis_sizes': {'transcript': 141, 'protein': 90, 'metabolite': 32}, 'order': 'degree desc (hubs near shared origin)'}
+  seed: 42
+  weighting: none
+  nodes=263 edges=317
+  fallback: isolated (degree-0) nodes land at the tip of their layer's axis (lowest rank)
+
+[2026-09-29T14:11:42+00:00] base=hive5_1 status=OK
+  method: Hive-plot-inspired 5-axis layout: one radial spoke per raw type_a value (transcript_bridge/transcript_differentially_expressed/protein_bridge/protein_differentially_expressed/metabolite_differentially_expressed), ordered by degree -- shows sub-types within a layer on their own spoke
+  call: deterministic geometry (no simulation); axis directions from fibonacci_sphere(5)
+  params: {'axis_length': 50.0, 'axis_sizes': {'transcript_bridge': 107, 'transcript_differentially_expressed': 34, 'protein_bridge': 71, 'protein_differentially_expressed': 19, 'metabolite_differentially_expressed': 32}, 'order': 'degree desc (hubs near shared origin)'}
+  seed: 42
+  weighting: none
+  nodes=263 edges=317
+  fallback: isolated (degree-0) nodes land at the tip of their type_a's axis (lowest rank)
+
+[2026-09-29T14:11:42+00:00] base=community_1 status=OK
+  method: Louvain community detection, meta-layout (ForceAtlas2 3D on the community graph), local sublayout per community
+  call: community.best_partition(G) -> nx.forceatlas2_layout(meta_graph, dim=3, weight='weight')
+  params: {'seed': 42, 'n_communities': 15}
+  seed: 42
+  weighting: meta-graph edges weighted by inter-community edge count
+  nodes=263 edges=317
+  fallback: 0 singleton communities (isolated nodes) placed exactly at their meta-node slot
+
+[2026-09-29T14:11:42+00:00] base=community_shellz_1 status=OK
+  method: Surgical blend: community_1's xy (real force-computed topology) + shell_1's radius-by-layer formula reused as a signed z elevation, applied per COMMUNITY's predominant layer (not per node)
+  call: community.best_partition(G) -> mode(layer) per community -> z_by_layer lookup
+  params: {'z_by_layer': {'transcript': -11.8743, 'protein': 0.0, 'metabolite': 5.6569}, 'seed': 42}
+  seed: 42
+  weighting: none
+  nodes=263 edges=317
+  fallback: 15 communities: 2 single-layer-only, 13 mixed-layer (z assigned by majority vote -- a lossy simplification for genuinely mixed communities, which is the whole point of Louvain finding them)
+
+[2026-09-29T14:11:58+00:00] base=n2vbal_phate_1 status=OK
+  method: node2vec (p=1, q=1) embedding + PHATE(3D), giant component only
+  call: Node2Vec(giant_subgraph, dimensions=64, walk_length=30, num_walks=200, p=1, q=1, seed=42, workers=1).fit(window=10, min_count=1, seed=42, workers=1) -> phate.PHATE(n_components=3, random_state=42)
+  params: {'p': 1, 'q': 1, 'dimensions': 64, 'walk_length': 30, 'num_walks': 200, 'seed': 42, 'workers': 1}
+  seed: 42
+  weighting: none (unweighted random walks)
+  nodes=263 edges=317
+  fallback: 0 nodes outside the giant component (random walks can't leave a disconnected component) placed via Fibonacci-sphere shell, radius_factor=1.35
+
+[2026-09-29T14:12:14+00:00] base=n2vbal_pacmap_1 status=OK
+  method: node2vec (p=1, q=1) embedding + PaCMAP(3D), giant component only
+  call: Node2Vec(giant_subgraph, dimensions=64, walk_length=30, num_walks=200, p=1, q=1, seed=42, workers=1).fit(window=10, min_count=1, seed=42, workers=1) -> pacmap.PaCMAP(n_components=3, n_neighbors=10, distance='angular', random_state=42)
+  params: {'p': 1, 'q': 1, 'dimensions': 64, 'walk_length': 30, 'num_walks': 200, 'seed': 42, 'workers': 1, 'pacmap_n_neighbors': 10, 'pacmap_MN_ratio': 0.5, 'pacmap_FP_ratio': 2.0, 'pacmap_distance': 'angular'}
+  seed: 42
+  weighting: none (unweighted random walks)
+  nodes=263 edges=317
+  fallback: 0 nodes outside the giant component (random walks can't leave a disconnected component) placed via Fibonacci-sphere shell, radius_factor=1.35
+
+[2026-09-29T14:12:25+00:00] base=n2vbfs_pacmap_1 status=OK
+  method: node2vec (p=0.25, q=4) embedding + PaCMAP(3D), giant component only
+  call: Node2Vec(giant_subgraph, dimensions=64, walk_length=30, num_walks=200, p=0.25, q=4, seed=42, workers=1).fit(window=10, min_count=1, seed=42, workers=1) -> pacmap.PaCMAP(n_components=3, n_neighbors=10, distance='angular', random_state=42)
+  params: {'p': 0.25, 'q': 4, 'dimensions': 64, 'walk_length': 30, 'num_walks': 200, 'seed': 42, 'workers': 1, 'pacmap_n_neighbors': 10, 'pacmap_MN_ratio': 0.5, 'pacmap_FP_ratio': 2.0, 'pacmap_distance': 'angular'}
+  seed: 42
+  weighting: none (unweighted random walks)
+  nodes=263 edges=317
+  fallback: 0 nodes outside the giant component (random walks can't leave a disconnected component) placed via Fibonacci-sphere shell, radius_factor=1.35
+
+[2026-09-29T14:12:40+00:00] base=n2vdfs_pacmap_1 status=OK
+  method: node2vec (p=4, q=0.25) embedding + PaCMAP(3D), giant component only
+  call: Node2Vec(giant_subgraph, dimensions=64, walk_length=30, num_walks=200, p=4, q=0.25, seed=42, workers=1).fit(window=10, min_count=1, seed=42, workers=1) -> pacmap.PaCMAP(n_components=3, n_neighbors=10, distance='angular', random_state=42)
+  params: {'p': 4, 'q': 0.25, 'dimensions': 64, 'walk_length': 30, 'num_walks': 200, 'seed': 42, 'workers': 1, 'pacmap_n_neighbors': 10, 'pacmap_MN_ratio': 0.5, 'pacmap_FP_ratio': 2.0, 'pacmap_distance': 'angular'}
+  seed: 42
+  weighting: none (unweighted random walks)
+  nodes=263 edges=317
+  fallback: 0 nodes outside the giant component (random walks can't leave a disconnected component) placed via Fibonacci-sphere shell, radius_factor=1.35
+
+[2026-09-29T14:12:45+00:00] base=n2vlayered_1 status=OK
+  method: Layered node2vec+UMAP: separate 3D embeddings for the transcript-only and metabolite-only same-layer subnetworks, each z-squeezed into a slab and offset apart (transcript below, metabolite above); protein nodes placed via Tutte/harmonic-style iterative relaxation (average of graph neighbors) from the two fixed slabs
+  call: Node2Vec(transcript_subgraph).fit() -> umap.UMAP(3D); same for metabolite_subgraph; middle_pos[m] = mean(neighbor positions), Gauss-Seidel iterated to convergence
+  params: {'p': 1, 'q': 1, 'slab_layers': ('transcript', 'metabolite'), 'middle_layers': ('protein',), 'slab_thickness_fraction': 0.08, 'z_layer_offset_fraction': 0.6, 'middle_relax_iters': 150, 'middle_relax_tol': 0.0001, 'min_nodes_for_umap': 10, 'seed': 42}
+  seed: 42
+  weighting: none (unweighted random walks per subnetwork; unweighted neighbor averaging for middle layers)
+  nodes=263 edges=317
+  fallback: transcript subnetwork (node2vec+UMAP): 3 nodes outside its own giant component fallback-shell placed; metabolite subnetwork (node2vec+UMAP): 20 similarly; 90 middle-layer nodes placed via harmonic relaxation (path exists to a transcript/metabolite node), 0 middle-layer nodes with no path to either slab placed via Fibonacci-sphere shell around the combined anchor centroid
+
+[2026-09-29T14:12:46+00:00] base=landscape_1 status=OK
+  method: VRNetzer-style functional landscape: per-node feature vector (edge_type_c composition fractions + layer/type_a one-hot + Louvain community one-hot + log-degree) embedded via UMAP -- similarity in ANNOTATION space, not graph-distance space
+  call: umap.UMAP(n_components=3, metric='cosine', random_state=42) on a hand-built feature matrix
+  params: {'feature_dims': 29, 'feature_breakdown': {'edge_types': 5, 'layer+type_a': 8, 'communities': 15}, 'n_neighbors': 15, 'min_dist': 0.5, 'spread': 2.0}
+  seed: 42
+  weighting: none (feature-space embedding, no graph edge weighting)
+  nodes=263 edges=317
+  fallback: none needed -- every node (incl. isolated) has a valid feature vector
+
+[2026-09-29T14:12:46+00:00] base=rwr_1 status=OK
+  method: Random-walk-with-restart feature landscape: personalized-PageRank visitation distribution per node embedded via UMAP -- a diffusion-based feature space rather than raw topology or a fixed annotation vector
+  call: nx.pagerank(G, alpha=0.09999999999999998, personalization={source:1.0}) per node -> umap.UMAP(3D)
+  params: {'restart_prob': 0.9, 'n_neighbors': 15, 'min_dist': 0.5, 'spread': 2.0}
+  seed: 42
+  weighting: none (feature-space embedding)
+  nodes=263 edges=317
+  fallback: none needed -- personalized PageRank is well-defined for isolated/dangling nodes
+
+[2026-09-29T14:12:46+00:00] base=paga_1 status=OK
+  method: PAGA-style two-level layout: Louvain communities abstracted into a meta-graph (edges weighted by observed/expected cross-community connectivity vs. a configuration-model null), meta-graph laid out with ForceAtlas2, then every node initialized near its community's coarse position and refined with a full spring-layout pass over the real graph
+  call: nx.forceatlas2_layout(meta_graph, dim=3, weight='weight') -> nx.spring_layout(G, pos=init_pos, dim=3, seed=42, iterations=50)
+  params: {'n_communities': 15, 'seed': 42, 'meta_iterations': 100, 'fine_iterations': 50}
+  seed: 42
+  weighting: meta-graph edges weighted by observed/expected cross-community connectivity (configuration-model null)
+  nodes=263 edges=317
+  fallback: no separate fallback needed: isolated nodes form singleton communities, get their own meta-graph slot (placed via FA2's native disconnected-graph handling), and spring_layout refines every node including isolated ones
+
+[2026-09-29T14:12:53+00:00] base=metapath_1 status=OK
+  method: Metapath-biased random walks (edge_type_c domain-continuity bias) + Word2Vec + UMAP(3D)
+  call: custom weighted walk generator -> gensim.models.Word2Vec(sg=1) -> umap.UMAP(3D)
+  params: {'same_domain_boost': 4.0, 'walk_length': 20, 'num_walks': 100, 'dimensions': 64, 'seed': 42}
+  seed: 42
+  weighting: walk transitions weighted 4.0x toward same-domain edge types
+  nodes=263 edges=317
+  fallback: 0 nodes outside the giant component (walks can't leave a disconnected component) placed via Fibonacci-sphere shell, radius_factor=1.35
+
+[2026-09-29T14:12:53+00:00] base=ensemble_1 status=OK
+  method: Generalized Procrustes ensemble blend of fa23d_1 + mds_1 + spectral_1
+  call: scipy.linalg.orthogonal_procrustes(mds_1, fa23d_1) and orthogonal_procrustes(spectral_1, fa23d_1) to align onto fa23d_1's frame, then weighted average
+  params: {'weights': {'fa23d_1': 0.4, 'mds_1': 0.3, 'spectral_1': 0.3}, 'seed': 42}
+  seed: 42
+  weighting: none (blend weights apply to whole layouts, not individual edges)
+  nodes=263 edges=317
+  fallback: none needed -- inherits each input layout's own disconnected-graph handling
+
+[2026-09-29T14:12:53+00:00] base=domaintouch_1 status=OK
+  method: Centrality-elevation hybrid: fa2_1 xy + z from domain_touch_count
+  call: custom: |{layer of node} union {layers of its neighbors}|
+  params: {'reused_fa2_1_xy': True}
+  seed: 42
+  weighting: none
+  nodes=263 edges=317
+  fallback: z = normalized domain_touch_count, scaled to xy spread (631.1828)
+
+[2026-09-29T14:12:53+00:00] base=raritytouch_1 status=OK
+  method: Centrality-elevation hybrid: fa2_1 xy + z from rarest_incident_edge_type_score
+  call: custom: -ln(min(edge_type_c count among incident edges) / total_edges)
+  params: {'reused_fa2_1_xy': True}
+  seed: 42
+  weighting: none
+  nodes=263 edges=317
+  fallback: z = normalized rarest_incident_edge_type_score, scaled to xy spread (631.1828)
+
+[2026-09-29T14:13:09+00:00] base=n2vbal_densmap_1 status=OK
+  method: node2vec (p=1, q=1) embedding + DensMAP(3D), giant component only
+  call: Node2Vec(giant_subgraph, ...).fit(...) -> umap.UMAP(n_components=3, n_neighbors=15, min_dist=0.5, spread=2.0, densmap=True, metric='cosine', random_state=42)
+  params: {'p': 1, 'q': 1, 'dimensions': 64, 'walk_length': 30, 'num_walks': 200, 'seed': 42, 'workers': 1, 'umap_n_neighbors': 15, 'umap_min_dist': 0.5, 'umap_spread': 2.0, 'umap_densmap': True}
+  seed: 42
+  weighting: none (unweighted random walks)
+  nodes=263 edges=317
+  fallback: 0 nodes outside the giant component placed via Fibonacci-sphere shell, radius_factor=1.35
+
+[2026-09-29T14:13:10+00:00] base=fa2rarity_1 status=OK
+  method: ForceAtlas2 with per-edge_type_c rarity weighting (-ln(count/total), not the binary within/cross-layer split), z-stacked
+  call: nx.forceatlas2_layout(G, max_iter=100, seed=42, dim=2, weight='rarity_weight')
+  params: {'max_iter': 100, 'seed': 42, 'dim': 2, 'rarity_weights': {'protein-protein': 1.27, 'protein-metabolite': 2.293, 'transcript-transcript': 0.832, 'transcript-metabolite': 2.293, 'metabolite-metabolite': 2.501}}
+  seed: 42
+  weighting: attraction weight = -ln(edge_type_c count / total edges), one bucket per distinct type
+  nodes=263 edges=317
+  fallback: 0 isolated nodes ring-placed per layer at z={'transcript': -91.71920471191406, 'protein': 0.0, 'metabolite': 91.71920471191406}
+
+[2026-09-29T14:13:10+00:00] base=shell_rarity_1 status=OK
+  method: Concentric shells by rarity band: shell = rarest edge_type_c a node touches (innermost = touches the rarest type), not layer
+  call: deterministic Fibonacci-sphere placement per rarity band (no simulation)
+  params: {'bands': {0: "['metabolite-metabolite'] (count=26)", 1: "['protein-metabolite', 'transcript-metabolite'] (count=32)", 2: "['protein-protein'] (count=89)", 3: "['transcript-transcript'] (count=138)"}, 'shell_r_base': 1.0, 'shell_min_gap_factor': 1.5, 'band_sizes': {0: 29, 1: 57, 2: 62, 3: 115, 4: 0}, 'radii': {0: 5.3852, 1: 8.0777, 2: 12.1166, 3: 18.1749}}
+  seed: 42
+  weighting: none
+  nodes=263 edges=317
+  fallback: isolated (degree-0) nodes get their own outermost band; node order within each band: (connected-component rank, then id)
+
+[2026-09-29T14:13:27+00:00] base=n2vbal_tsne_1 status=OK
+  method: node2vec (p=1, q=1) embedding + openTSNE(3D), giant component only
+  call: Node2Vec(giant_subgraph, ...).fit(...) -> openTSNE.TSNE(n_components=3, perplexity=30, metric='cosine', negative_gradient_method='bh', initialization='pca', random_state=42)
+  params: {'p': 1, 'q': 1, 'dimensions': 64, 'walk_length': 30, 'num_walks': 200, 'seed': 42, 'tsne_perplexity': 30, 'tsne_negative_gradient_method': 'bh'}
+  seed: 42
+  weighting: none (unweighted random walks)
+  nodes=263 edges=317
+  fallback: 0 nodes outside the giant component placed via Fibonacci-sphere shell, radius_factor=1.35
+
+########################################################################
+# cmd: run_layouts.py -i /Users/ph/Documents/code/wwiznet_ppimetabolite/prepare/raw_input -o /Users/ph/Documents/code/wwiznet_ppimetabolite/prepare/output_1 --only fa2spectral_1 --no-progress
+# started: 2026-09-29T14:44:17+00:00
+# cwd: /Users/ph/Documents/code/multilayer_layout_experiments
+# python: /Users/ph/.pyenv/versions/3.12.7/bin/python3 (3.12.7)
+# input: /Users/ph/Documents/code/wwiznet_ppimetabolite/prepare/raw_input
+# output: /Users/ph/Documents/code/wwiznet_ppimetabolite/prepare/output_1
+# graph: nodes=263 edges=317 components=1 giant=263 isolated=0
+# layers: layer_c order=transcript,protein,metabolite (transcript=141, protein=90, metabolite=32)
+# selected: 1 layout(s): fa2spectral_1
+# rebuilt /Users/ph/Documents/code/wwiznet_ppimetabolite/prepare/output_1/nodes.tsv from /Users/ph/Documents/code/wwiznet_ppimetabolite/prepare/raw_input/nodes.tsv + 132 layout column(s) carried over from the previous run (layouts now present: ['community_1', 'community_shellz_1', 'domaintouch_1', 'ensemble_1', 'fa23d_1', 'fa23d_2', 'fa2_1', 'fa2_2', 'fa2_3', 'fa2rarity_1', 'fa2sep_1', 'fa2spectral_1', 'fr3d_1', 'fr3d_2', 'hive3_1', 'hive5_1', 'hyp_1', 'isomap_1', 'kk3d_1', 'kk3d_2', 'landscape_1', 'mds_1', 'mds_2', 'metapath_1', 'n2vbal_1', 'n2vbal_densmap_1', 'n2vbal_pacmap_1', 'n2vbal_phate_1', 'n2vbal_tsne_1', 'n2vbfs_1', 'n2vbfs_pacmap_1', 'n2vdfs_1', 'n2vdfs_pacmap_1', 'n2vlayered_1', 'paga_1', 'raritytouch_1', 'rwr_1', 'shell_1', 'shell_2', 'shell_rarity_1', 'spectral_1', 'spectral_2', 'topobet_1', 'topodeg_1'])
+# copied /Users/ph/Documents/code/wwiznet_ppimetabolite/prepare/raw_input/edges.tsv -> /Users/ph/Documents/code/wwiznet_ppimetabolite/prepare/output_1/edges.tsv
+########################################################################
+
+[2026-09-29T14:44:17+00:00] base=fa2spectral_1 status=OK (recomputed)
+  method: ForceAtlas2 seeded with a spectral embedding (fCoSE-style warm start), z-stacked
+  call: nx.forceatlas2_layout(G, pos=prepare_seed_positions(spectral_positions(G, 2)), max_iter=100, seed=42, dim=2)
+  params: {'max_iter': 100, 'seed': 42, 'dim': 2, 'seeded': True, 'seed_rms_per_sqrt_n': 1.0, 'seed_jitter_fraction': 0.01}
+  seed: 42
+  weighting: unweighted
+  nodes=263 edges=317
+  fallback: 0 isolated nodes ring-placed per layer at z={'transcript': -91.15826147283865, 'protein': 0.0, 'metabolite': 91.15826147283865}
+
