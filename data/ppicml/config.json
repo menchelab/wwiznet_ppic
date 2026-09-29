@@ -204,7 +204,16 @@
   },
   "lastUsedPreset": "",
   "subsetBuilderLibrary": [],
-  "subsetListLibrary": [],
+  "subsetListLibrary": [
+    {
+      "name": "temp1",
+      "namesText": "12 20 71 76 109 118 166 257 280 372 402 454 457 526 528 619 622 659 690 761 765 788 853 882 845 758 86 18 464 881 536 355 515 579 803 860 626 787 213 128 838 573 40 48 51 55 62 63 497 500 276 771 169 416 776 880 163 312 79 77 81 88 103 407 115 508 512 636 863 198 613 843 596 147 152 705 807 170 171 181 182 195 247 439 725 672 581 274 275 889 281 316 340 380 408 431 436 446 477 480 734 586 747 781 564 543 547 567 615 792 823 872 634 678 773 818 713 736 617 324 742 898 682 44 386 405 374 255 424 462 1 180 343 262 568 354 891 241 356 388 440 449 722 594 719 273 847 301 520 83 186 56 188 289 561 599 894"
+    },
+    {
+      "name": "temp2",
+      "namesText": "25 123 248 354 532 645 745 891 95 164 397 726 782 839 876 40 446 567 769 853 882 75 199 213 247 311 363 493 543 563 749 490 593 841 91 439 257 622"
+    }
+  ],
   "localStorage": {
     "graphSettingsPresets_data": "{\"deff\":{\"nodeSizeScaling\":5,\"nodeMinSize\":0.3,\"edgeWidthScaling\":2.5,\"edgeMinWidth\":7.96,\"nodeSizeAttribute\":\"degree_n\",\"nodeColorAttribute\":\"type_simple_c\",\"nodeMeshAttribute\":\"GO_BP_a\",\"edgeWidthAttribute\":\"width_norm\",\"edgeColorAttribute\":\"type_simple_c\",\"edgeCutoff\":0,\"nodeSizeScalingMethod\":\"linear\",\"nodeColorScalingMethod\":\"linear\",\"edgeWidthScalingMethod\":\"linear\",\"edgeColorScalingMethod\":\"linear\",\"nodeMeshScalingMethod\":\"linear\",\"edgeOpacity\":0.62,\"edgeBlending\":\"additive\",\"edgeAlphaByWeight\":true,\"edgeAlphaMin\":0.22,\"edgeAlphaMax\":0.8,\"edgeFadeDistance\":0.7,\"edgeDensityMode\":false,\"edgeDensityScale\":2,\"highlightNodeSizeScale\":1.2,\"highlightEdgeWidthScale\":3,\"highlightNodesEnabled\":true,\"highlightEdgesEnabled\":true,\"subsetEdgesOnly\":false,\"edgeSubsetMode\":\"induced\",\"highlightEdgeOpacity\":5.8,\"fadeOtherEdgesEnabled\":true,\"fadeOtherEdgesOpacity\":0.85,\"enabled\":true,\"distance\":1200,\"enableDynamicResolution\":false,\"targetFPS\":60,\"resolutionScale\":1,\"bloomMode\":\"selection\",\"bloomStrength\":0.25,\"bloomRadius\":0.1,\"bloomThreshold\":0.5,\"cameraPosition\":{\"x\":64.94496832665173,\"y\":257.36748805476765,\"z\":67.38123571774032},\"cameraRotation\":{\"x\":-1.3147341574258813,\"y\":0.23943280937434203,\"z\":3.0077826776872154}}}"
   },
